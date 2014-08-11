@@ -6,8 +6,8 @@ layout: default
   {% for post in site.posts %}
   <section class="post">
     <header class="post-header">
-      <img class="post-avatar" alt="{{ post.category }}" src="{{ "/img/categories/" | prepend: site.baseurl }}{{ post.category }}.png">
-      <h2 class="post-title">{{ post.title }}</h2>
+      <img class="post-avatar" alt="{{ post.category }}" src="/img/categories/{{ post.category }}.png">
+      <h2 class="post-title"><a href="{{ post.url }}" title="{{post.title}}">{{ post.title }}</a></h2>
       <p class="post-meta">
         Publié par Jérémy Ozog le {% include post-date.html %} dans {% include post-category.html %}
       </p>
@@ -20,10 +20,3 @@ layout: default
   </section>
   {% endfor %}
 </div>
-
-<!--
-<p class="rss-subscribe">
-  subscribe
-  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-</p>
--->

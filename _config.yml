@@ -9,3 +9,7 @@ github_username:  jeryagor
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugins
+gems:
+- jekyll-redirect-from # gem install jekyll-redirect-from
