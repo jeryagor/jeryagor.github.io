@@ -12,4 +12,4 @@ permalink: pretty
 
 # Plugins
 gems:
-- jekyll-redirect-from # gem install jekyll-redirect-from
+- jekyll-redirect-from # gem install jekyll-redirect-from, doc at https://help.github.com/articles/redirects-on-github-pages
