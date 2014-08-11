@@ -1,0 +1,11 @@
+# Site settings
+title: Jérémy Ozog
+description: "Blog personnel de Jérémy Ozog, développeur C++, web et mobile."
+baseurl: ""
+url: "http://www.jeremy-ozog.fr"
+twitter_username: jeremyozog
+github_username:  jeryagor
+
+# Build settings
+markdown: kramdown
+permalink: pretty
