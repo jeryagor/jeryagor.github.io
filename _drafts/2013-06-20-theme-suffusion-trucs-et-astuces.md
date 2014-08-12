@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Suffusion : trucs et astuces pour utiliser ce thème WordPress"
 date: "2013-06-20"
 description: "Quelques trucs et astuces en vrac pour mieux utiliser les fonctionnalités offertes par le thème Wordpress Suffusion : page d'''accueil, extraits..."

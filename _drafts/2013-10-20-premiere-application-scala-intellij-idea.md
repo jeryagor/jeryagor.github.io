@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Première application Scala avec IntelliJ IDEA"
 date: "2013-10-20"
 description: "Un aperçu rapide de la mise en place d'un projet Scala sous IntelliJ IDEA : installation des outils, création d'un projet et du classique Hello World."
@@ -45,10 +45,10 @@ Clic droit sur "src" puis New > Scala Class.
 
 Nommez cette classe HelloWorld puis collez-y le contenu suivant :
 
-```
+{% highlight scala %}
 object HelloWorld extends App {
     println("Hello, world!")
 }
-```
+{% endhighlight %}
 
 L'application peut être lancée via le menu Run > Run 'Hello World' (raccourci Maj + F10 par défaut).

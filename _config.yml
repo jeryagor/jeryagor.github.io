@@ -4,10 +4,6 @@ description: "Blog personnel de Jérémy Ozog, développeur C++, web et mobile."
 baseurl: ""
 url: "http://www.jeremy-ozog.fr"
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-
 # Plugins
 gems:
   - jekyll-redirect-from # Doc at https://help.github.com/articles/redirects-on-github-pages

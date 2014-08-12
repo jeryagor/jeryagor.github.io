@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Installation du SDK Tizen sur Windows 8"
 date: "2013-06-26"
 description: "Tizen, le nouvel OS mobile, a de quoi plaire. Suivez le guide, installez le SDK Tizen sur Windows 8 et commencez à coder dès maintenant !"
@@ -39,9 +39,10 @@ Je vous propose donc de suivre le guide :
 
 * Ouvrez une invite de commande en mode administrateur (Windows + X puis "Invite de commandes (admin)" sous Windows 8), naviguez vers le dossier extrait puis lancez InstallManager.jar (voir les commandes ci-dessous).
 
-`cd C:\Users\Jeremy\Downloads\tizen-sdk-windows64-v2.1.4`
-
-`javaw -jar InstallManager.jar`
+{% highlight bat %}
+cd C:\Users\Jeremy\Downloads\tizen-sdk-windows64-v2.1.4
+javaw -jar InstallManager.jar
+{% endhighlight %}
 
 * Suivez l'assistant d'installation du SDK Tizen de manière classique : il y aura tout d'abord une phase de téléchargement (environ 1.8 Go pour la version 2.1 du SDK) et une phase d'installation. Pendant l'installation, il vous sera proposé  d'installer Intel Hardware Accelerated Execution Manager (HAXM), à faire absolument pour éviter tout problème avec l'émulateur ultérieurement.
 
