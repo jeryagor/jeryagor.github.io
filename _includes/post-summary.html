@@ -1,0 +1,17 @@
+<section class="post-entry">
+  <img class="thumbnail" src="/img/categories/{{ post.category }}.png">
+  <h2 class="post-title">
+    <a href="{{ post.url }}" title="{{post.title}}">{{ post.title }}</a>
+  </h2>
+  <div class="date-box">
+    <span class="date-outer">
+      <span class="date-inner">{% include post-date.html %}</span>
+    </span>
+  </div>
+  <div class="excerpt">
+    <p>{{ post.description }}</p>
+  </div>
+  <div>
+    <a class="pure-button pure-button-primary" href="{{ post.url }}">Lire l'article...</a>
+  </div>
+</section>

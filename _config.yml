@@ -8,6 +8,9 @@ url: "http://www.jeremy-ozog.fr"
 markdown: kramdown
 permalink: pretty
 
-# Plugins
+# Category plugin => see https://github.com/recurser/jekyll-plugins
+category_dir: "category"
+
+# Other plugins
 gems:
   - jekyll-redirect-from # gem install jekyll-redirect-from, doc at https://help.github.com/articles/redirects-on-github-pages
