@@ -2,15 +2,40 @@
 layout: default
 ---
 
-<div class="post">
+<div class="container">
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  <h1>{{ page.title }}</h1>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+  Publié par Jérémy Ozog le {% include page-date.html post=page %} dans {% include page-category.html %}
+
+  <hr />
+
+  {{ content }}
+
+  <hr />
+
+  <div class="ssba center">
+    Cet article vous a plu ? Partagez-le avec vos connaissances !
+    <br/>
+    <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url }}" target="_blank">
+      <img src="/img/simple-share-buttons-adder/somacro/google.png" title="Google+" alt="Share on Google+" />
+    </a>
+    <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
+      <img src="/img/simple-share-buttons-adder/somacro/facebook.png" title="Facebook" alt="Share on Facebook" />
+    </a>
+    <a href="http://twitter.com/share?url={{ page.url | prepend: site.url }}" target="_blank">
+      <img src="/img/simple-share-buttons-adder/somacro/twitter.png" title="Twitter" alt="Tweet about this on Twitter" />
+    </a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ page.url | prepend: site.url }}" target="_blank">
+      <img src="/img/simple-share-buttons-adder/somacro/linkedin.png" title="Linkedin" alt="Share on LinkedIn" />
+    </a>
+    <a href="mailto:?Subject={{ page.title }}&amp;Body={{ page.url | prepend: site.url }}">
+      <img src="/img/simple-share-buttons-adder/somacro/email.png" title="Email" class="ssba" alt="Email this to someone" />
+    </a>
+  </div>
+
+  <hr />
+
+  <!-- Disqus goes here - {{ template "_internal/disqus.html" . }} -->
 
 </div>
