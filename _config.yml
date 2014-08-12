@@ -8,7 +8,7 @@ url: "http://www.jeremy-ozog.fr"
 markdown: kramdown
 permalink: pretty
 
-# Other plugins
+# Plugins
 gems:
-  - jekyll-redirect-from # gem install jekyll-redirect-from, doc at https://help.github.com/articles/redirects-on-github-pages
-  - jekyll-sitemap       # gem install jekyll-sitemap,       doc at https://help.github.com/articles/sitemaps-for-github-pages
+  - jekyll-redirect-from # Doc at https://help.github.com/articles/redirects-on-github-pages
+  - jekyll-sitemap       # Doc at https://help.github.com/articles/sitemaps-for-github-pages
