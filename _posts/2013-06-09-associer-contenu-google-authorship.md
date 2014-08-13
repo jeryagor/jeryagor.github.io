@@ -8,6 +8,7 @@ excerpt: |
   Au travers de ce court tutoriel, vous découvrirez comment mettre en place ce service sur vos posts.
   Il paraît qu'il existe même un moyen de vérifier que vos changements fonctionnent sans attendre que les robots de Google passent par votre blog. ;)
 category: google+
+redirect_from: "/post/associer-contenu-google-authorship"
 ---
 
 Lors de vos recherches Google, vous avez probablement déjà vu des résultats de recherche associés à une photo / profil Google+. Cette fonctionnalité, nommée Google Authorship, permet d'associer le contenu que vous créez à votre profil Google+. Elle met également en avant vos publications, les miniatures ayant tendance à attirer l’œil.
