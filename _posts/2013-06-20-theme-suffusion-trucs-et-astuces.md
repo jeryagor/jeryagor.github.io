@@ -7,7 +7,9 @@ excerpt: |
   Quelques trucs et astuces en vrac pour mieux utiliser les fonctionnalités offertes par le thème Wordpress Suffusion.
   Page d'accueil présentant une liste de posts, extraits, suppression de l'auteur... n'hésitez pas à poser des questions au besoin !
 category: wordpress
-redirect_from: /post/theme-suffusion-trucs-et-astuces/
+redirect_from:
+  - /post/theme-suffusion-trucs-et-astuces/
+  - /theme-suffusion-trucs-et-astuces/
 ---
 
 A chaque thème ses spécificités, [Suffusion](http://aquoid.com/news/themes/suffusion/ "Thème Suffusion pour Wordpress") ne fait pas exception à la règle.
