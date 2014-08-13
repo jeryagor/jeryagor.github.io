@@ -1,12 +1,8 @@
 ---
 layout: post
-title: "Google Authorship : associez le contenu publié à votre compte Google"
-date: "2013-06-09"
+title: "Google Authorship : associez votre contenu à votre compte Google"
+date: 2013-06-09
 description: "Découvrez comment profiter de Google Authorship pour mettre en en avant le contenu que vous publiez et l'associer à votre compte Google+."
-excerpt: |
-  Pour mettre en avant le contenu que vous publiez, rien de mieux que de l'associer à votre compte Google+.
-  Au travers de ce court tutoriel, vous découvrirez comment mettre en place ce service sur vos posts.
-  Il paraît qu'il existe même un moyen de vérifier que vos changements fonctionnent sans attendre que les robots de Google passent par votre blog. ;)
 category: google+
 redirect_from:
   - /post/associer-contenu-google-authorship/

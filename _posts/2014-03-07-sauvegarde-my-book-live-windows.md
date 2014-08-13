@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Sauvegarde automatique sur WD My Book Live sous Windows"
-date: "2014-03-07"
+date: 2014-03-07
 description: "Une marche à suivre détaillée sous Windows pour mettre en place des sauvegardes automatiques de vos données sur un disque réseau WD My Book Live."
-summary: |
-  Vous êtes utilisateur Windows et vous souhaitez mettre en place des sauvegardes automatiques de vos données sur un disque réseau WD My Book Live ?
-  Dans cet article, vous verrez comment créer un script batch copiant vos données à l'aide de robocopy et comment mettre en place une tâche planifiée afin d'exécuter ce script périodiquement.
 category: mybooklive
 redirect_from:
   - /post/sauvegarde-my-book-live-windows/

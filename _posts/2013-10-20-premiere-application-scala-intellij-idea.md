@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Première application Scala avec IntelliJ IDEA"
-date: "2013-10-20"
+date: 2013-10-20
 description: "Un aperçu rapide de la mise en place d'un projet Scala sous IntelliJ IDEA : installation des outils, création d'un projet et du classique Hello World."
-excerpt: |
-    Un aperçu rapide de la mise en place d'un projet Scala sous IntelliJ IDEA.
-    Installation des outils (JDK officiel, IntelliJ IDEA, plugin Scala de JetBrains), création d'un projet vide et du classique "Hello World".
 category: scala
 redirect_from:
   - /post/premiere-application-scala-intellij-idea/

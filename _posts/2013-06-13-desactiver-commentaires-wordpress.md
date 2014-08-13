@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Désactiver les commentaires sur WordPress"
-date: "2013-06-13"
+date: 2013-06-13
 description: "Pour désactiver les commentaires sur une page ou un article Wordpress, il suffit de décocher la bonne case au bon endroit."
-excerpt: Mais où se trouve la petite cache à cocher qui permet de désactiver les commentaires sur Wordpress ?
 category: wordpress
 redirect_from:
   - /post/desactiver-commentaires-wordpress/

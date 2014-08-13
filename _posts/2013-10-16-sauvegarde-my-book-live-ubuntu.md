@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Sauvegarde automatique sur WD My Book Live sous Ubuntu"
-date: "2013-10-16"
-description: "Une marche à suivre détaillée sous Ubuntu pour mettre en place des sauvegardes automatiques de vos données sur un disque réseau WD My Book Live."    
-excerpt: |
-  Vous êtes utilisateur Unix et vous souhaitez mettre en place des sauvegardes automatiques et régulières de vos données sur un disque réseau WD My Book Live ?
-  Dans cet article, vous verrez comment activer le SSH sur votre disque My Book Live et automatiser l'exécution d'un script de sauvegarde incrémentale utilisant rsync.
+date: 2013-10-16
+description: "Une marche à suivre détaillée sous Ubuntu pour mettre en place des sauvegardes automatiques de vos données sur un disque réseau WD My Book Live."
 category: mybooklive
 redirect_from:
   - /post/sauvegarde-my-book-live-ubuntu/

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Tizen CLI : application Tizen en ligne de commandes"
-date: "2013-06-27"
-description:  "Le SDK Tizen est fourni avec tous les outils pour déployer votre application en dehors de Tizen IDE. Découvrez les commandes de Tizen CLI !"
-excerpt: |
-  Le SDK Tizen est fourni avec tous les outils pour déployer votre application en dehors de Tizen IDE.
-  Découvrez les principales commandes de Tizen CLI au travers de la création d'une application simpliste.
+date: 2013-06-27
+description: "Le SDK Tizen est fourni avec tous les outils pour déployer votre application en dehors de Tizen IDE. Découvrez les commandes de Tizen CLI !"
 category: tizen
 redirect_from:
   - /post/tizen-cli-application-ligne-commandes/

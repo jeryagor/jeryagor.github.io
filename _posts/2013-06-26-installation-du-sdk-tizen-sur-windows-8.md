@@ -1,12 +1,8 @@
 ---
 layout: post
 title: "Installation du SDK Tizen sur Windows 8"
-date: "2013-06-26"
+date: 2013-06-26
 description: "Tizen, le nouvel OS mobile, a de quoi plaire. Suivez le guide, installez le SDK Tizen sur Windows 8 et commencez à coder dès maintenant !"
-excerpt: |
-  Tizen, le nouvel OS mobile de la Linux Foundation soutenu notamment par Samsung et Intel, a de quoi plaire.
-  Mais avez-vous tous les outils pour vous lancer dans l'aventure ?
-  Suivez le guide, installez le SDK Tizen sur Windows 8 et commencez à coder le plus rapidement possible !
 category: tizen
 redirect_from:
   - /post/installation-du-sdk-tizen-sur-windows-8/

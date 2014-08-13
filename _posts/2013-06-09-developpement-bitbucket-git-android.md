@@ -1,12 +1,8 @@
 ---
 layout: post
 title: "Développement collaboratif avec Git, Bitbucket et Android Studio"
-date: "2013-06-09"
+date: 2013-06-09
 description: "Utilisez un dépôt distant Git (Bitbucket ou autre) pour faciliter le développement collaboratif de vos applications avec Android Studio."
-excerpt: |
-  Quand on souhaite travailler à plusieurs sur le développement d'une application Android, l'utilisation d'un gestionnaire de versions comme Git facilite grandement le travail.
-  En utilisant un service en ligne tel que Bitbucket, vous disposez d'un dépôt Git accessible aisément dans le monde entier.
-  L'article présente l'intégration d'un dépôt Git - Bitbucket à Android Studio, le nouvel IDE spécial Android basé sur IntelliJ qui a été dévoilé par les équipes de Google il y a quelques semaines.
 category: android
 redirect_from:
   - /post/developpement-bitbucket-git-android/

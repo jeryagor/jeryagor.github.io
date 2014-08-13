@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Migration WordPress : déplacer votre blog sur un nouveau serveur"
-date: "2013-09-03"
+date: 2013-09-03
 description: "Une marche à suivre pour réussir la migration Wordpress sur un nouveau serveur, accompagnée d'une piqûre de rappel pour l'installation d'un serveur web."
-excerpt: |
-  Dans cet article, découvrez une marche à suivre pour réussir la migration de votre blog Wordpress sur un nouveau serveur.
-  Pour ceux qui, comme moi, se tournent vers du dédié / VPS, vous trouverez également une petite piqûre de rappel concernant l'installation d'un serveur web.
 category: wordpress
 redirect_from:
   - /post/migration-wordpress-nouveau-serveur/

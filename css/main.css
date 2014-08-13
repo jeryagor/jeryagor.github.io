@@ -12,6 +12,10 @@ body {
     text-align: justify;
 }
 
+footer {
+    text-align: center;
+}
+
 .content {
     width: 1200px;
     max-width: 100%;
