@@ -7,7 +7,9 @@ excerpt: |
   Vous êtes utilisateur Unix et vous souhaitez mettre en place des sauvegardes automatiques et régulières de vos données sur un disque réseau WD My Book Live ?
   Dans cet article, vous verrez comment activer le SSH sur votre disque My Book Live et automatiser l'exécution d'un script de sauvegarde incrémentale utilisant rsync.
 category: mybooklive
-redirect_from: /post/sauvegarde-my-book-live-ubuntu/
+redirect_from:
+  - /post/sauvegarde-my-book-live-ubuntu/
+  - /sauvegarde-my-book-live-ubuntu/
 ---
 
 J'ai récemment acquis un disque dur réseau Western Digital, le dénommé My Book Live, afin de faire des sauvegardes incrémentales de mes données personnelles (les photos abondent vite et je ne souhaite plus payer de l'espace de stockage en ligne).

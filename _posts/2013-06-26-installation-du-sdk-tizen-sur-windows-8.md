@@ -8,7 +8,9 @@ excerpt: |
   Mais avez-vous tous les outils pour vous lancer dans l'aventure ?
   Suivez le guide, installez le SDK Tizen sur Windows 8 et commencez à coder le plus rapidement possible !
 category: tizen
-redirect_from: /post/installation-du-sdk-tizen-sur-windows-8/
+redirect_from:
+  - /post/installation-du-sdk-tizen-sur-windows-8/
+  - /installation-du-sdk-tizen-sur-windows-8/
 ---
 
 [Tizen](https://www.tizen.org/ "Site officiel de Tizen") est le nouveau système d'exploitation mobile de la Linux Foundation, soutenu par de nombreux industriels dont Intel et Samsung. Destiné à un usage multi-plateformes (smartphones, tablettes, TV connectées, automobile...), il devrait être officiellement disponible dès la rentrée sur un téléphone Samsung haut de gamme. Quoi d'étonnant pour un développeur de s'essayer à ce nouvel environnement ? C'est ce que je vous propose de faire tout de suite, sans quitter votre Windows 8, en installant le SDK Tizen.
