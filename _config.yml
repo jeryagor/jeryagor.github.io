@@ -6,7 +6,6 @@ url: "http://www.jeremy-ozog.fr"
 
 # Jekyll settings
 highlighter: pygments
-noslash: true
 
 # Plugins
 gems:
