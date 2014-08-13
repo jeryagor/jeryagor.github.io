@@ -7,7 +7,7 @@ excerpt: |
   Au travers d'exemples de code, découvrez comment utiliser le package json fourni avec Go pour encoder et décoder vos données au format JSON.
   Outre les fonctions de base Marshal et Unmarshal, nous verrons certaines particularités liées aux tags JSON ou à l'utilisation de l'interface vide.
 category: golang
-redirect_from: /post/serialisation-json-golang
+redirect_from: /post/serialisation-json-golang/
 ---
 
 JSON (pour JavaScript Object Notation) est un format de données textuelles permettant de représenter aisément de l'information textuelle. Il est notamment très utilisé pour les échanges de données entre front-end et back-end.

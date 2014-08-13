@@ -7,7 +7,7 @@ excerpt: |
   Dans cet article, découvrez une marche à suivre pour réussir la migration de votre blog Wordpress sur un nouveau serveur.
   Pour ceux qui, comme moi, se tournent vers du dédié / VPS, vous trouverez également une petite piqûre de rappel concernant l'installation d'un serveur web.
 category: wordpress
-redirect_from: /post/migration-wordpress-nouveau-serveur
+redirect_from: /post/migration-wordpress-nouveau-serveur/
 ---
 
 En cas de changement de serveur pour l'hébergement de votre blog, vous aurez probablement envie de conserver toutes vos données (contenu, extensions, configuration...). Voici une démarche à suivre pour réussir votre migration WordPress.

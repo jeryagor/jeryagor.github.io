@@ -7,7 +7,7 @@ summary: |
   Vous êtes utilisateur Windows et vous souhaitez mettre en place des sauvegardes automatiques de vos données sur un disque réseau WD My Book Live ?
   Dans cet article, vous verrez comment créer un script batch copiant vos données à l'aide de robocopy et comment mettre en place une tâche planifiée afin d'exécuter ce script périodiquement.
 category: mybooklive
-redirect_from: /post/sauvegarde-my-book-live-windows
+redirect_from: /post/sauvegarde-my-book-live-windows/
 ---
 
 Il y a quelques temps, je vous parlais de la mise en place de [sauvegarde automatique sur un disque réseau WD My Book Live](/sauvegarde-my-book-live-ubuntu/ "Tutoriel sur la sauvegarde sur My Book Live sous Ubuntu") sous Unix.

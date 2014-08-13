@@ -5,7 +5,7 @@ date: "2013-10-19"
 description: "Quelques notes concernant l'installation de IntelliJ IDEA sous Ubuntu : installation du JDK, de l'IDE et ajout d'un raccourci dans la barre de lancement de Unity."
 excerpt: "Quelques notes concernant l'installation de IntelliJ IDEA sous Ubuntu : installation du JDK, de l'IDE et ajout d'un raccourci dans la barre de lancement."
 category: intellij
-redirect_from: /post/installation-intellij-idea-ubuntu
+redirect_from: /post/installation-intellij-idea-ubuntu/
 ---
 
 Voilà quelques notes rapides pour installer IntelliJ IDEA sur votre machine Ubuntu.
