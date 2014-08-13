@@ -9,3 +9,5 @@ Pour exécuter en local :
 ```
 bundle exec jekyll serve --watch
 ```
+
+Pour Pygments, attention à bien utiliser Python 2 sinon des erreurs peuvent apparaître à la génération du site.
