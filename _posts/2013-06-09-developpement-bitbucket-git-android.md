@@ -8,7 +8,7 @@ excerpt: |
   En utilisant un service en ligne tel que Bitbucket, vous disposez d'un dépôt Git accessible aisément dans le monde entier.
   L'article présente l'intégration d'un dépôt Git - Bitbucket à Android Studio, le nouvel IDE spécial Android basé sur IntelliJ qui a été dévoilé par les équipes de Google il y a quelques semaines.
 category: android
-redirect_from: "/post/developpement-bitbucket-git-android"
+redirect_from: /post/developpement-bitbucket-git-android
 ---
 
 Alors qu'un dépôt Git local me suffisait amplement pour mes développements personnels, je me suis posé la question de l'utilisation d'un dépôt en ligne lorsque j'ai souhaité développer une application avec ma conjointe. Comme je découvrais l'utilisation de Android Studio d'une part et de Bitbucket d'autre part, je me suis dit que j'allais partager ces quelques trucs au travers d'un article.

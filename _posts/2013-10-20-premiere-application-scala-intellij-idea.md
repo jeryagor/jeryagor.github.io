@@ -7,7 +7,7 @@ excerpt: |
     Un aperçu rapide de la mise en place d'un projet Scala sous IntelliJ IDEA.
     Installation des outils (JDK officiel, IntelliJ IDEA, plugin Scala de JetBrains), création d'un projet vide et du classique "Hello World".
 category: scala
-redirect_from: "/post/premiere-application-scala-intellij-idea"
+redirect_from: /post/premiere-application-scala-intellij-idea
 ---
 
 Ayant appris à utiliser Scala récemment au travers du cours "Functional Programming Principles in Scala" sur Coursera), j'ai souhaité faire un tour des IDE pour voir lequel me conviendrait le mieux. Outre [Eclipse qui est disponible dans une version prête à utiliser pour Scala](http://scala-ide.org/download/sdk.html "Téléchargement de Scala IDE"), il est aussi possible d'utiliser son challenger, IntelliJ IDEA. Cet article vous offre un petit tour rapide de la mise en place d'un projet Scala sous IntelliJ IDEA, au travers du classique "Hello World".

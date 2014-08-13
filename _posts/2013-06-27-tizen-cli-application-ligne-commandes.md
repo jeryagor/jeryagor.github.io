@@ -7,7 +7,7 @@ excerpt: |
   Le SDK Tizen est fourni avec tous les outils pour déployer votre application en dehors de Tizen IDE.
   Découvrez les principales commandes de Tizen CLI au travers de la création d'une application simpliste.
 category: tizen
-redirect_from: "/post/tizen-cli-application-ligne-commandes"
+redirect_from: /post/tizen-cli-application-ligne-commandes
 ---
 
 Que vous soyez amateur de lignes de commandes ou détracteur d'Eclipse (sur lequel Tizen IDE s'appuie), Tizen CLI (Command Line Interface) vous fournit tous les outils nécessaires au déploiement d'une application mobile.
