@@ -15,7 +15,7 @@ Pour illustrer, je m'appuie sur une application nommée TestBitbucket créée da
 
 ## Mise en place de Git dans Android Studio
 
-Pour commencer, installez Git sur votre machine de travail : un petit tour sur le [site officiel de Git](http://git-scm.com/ "Site officiel de Git") s'impose. Si vous n'êtes pas familiarisé avec les outils de gestion de version, vous pouvez en profiter pour suivre le petit [guide d'itnitiation à Git](http://try.github.io/ "Guide d'itnitiation à Git").
+Pour commencer, installez Git sur votre machine de travail : un petit tour sur le [site officiel de Git](http://git-scm.com/ "Site officiel de Git") s'impose. Si vous n'êtes pas familiarisé avec les outils de gestion de version, vous pouvez en profiter pour suivre le petit [guide d'initiation à Git](http://try.github.io/ "Guide d'initiatio nà Git").
 
 Une fois Git installé, il faut indiquer à Android Studio que vous souhaitez utiliser Git pour la gestion de version : via les menus, il suffit de se rendre dans VCS > Enable Version Control Integration... puis de sélectionner Git dans la liste déroulante, comme le montre l'image ci-dessous.
 
@@ -47,7 +47,7 @@ Et c'est parti pour le premier commit : clic-droit sur le projet dans l'explora
 
 ![Premier commit sur Android Studio](/img/uploads/02_add_to_vcs_and_initial_commit.png)
 
-Votre projet Android Studio est maintenant lié avec votre dépôt Git local. Dans le cadre d'un développement collaboratif, un dépôt local ne suffira pas : les développeurs doivent pouvoir accéder à un dépôt commun, par exemple en utilisant des services en ligne tels que [Github](https://github.com/ "Github") ou [Bitbycket](https://bitbucket.org "Bitbucket"), ce dernier étant le sujet de cet article.
+Votre projet Android Studio est maintenant lié avec votre dépôt Git local. Dans le cadre d'un développement collaboratif, un dépôt local ne suffira pas : les développeurs doivent pouvoir accéder à un dépôt commun, par exemple en utilisant des services en ligne tels que [Github](https://github.com/ "Github") ou [Bitbucket](https://bitbucket.org "Bitbucket"), ce dernier étant le sujet de cet article.
 
 ## Association à un dépôt distant Bitbucket
 

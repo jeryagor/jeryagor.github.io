@@ -13,7 +13,7 @@ Ayant appris à utiliser Scala récemment au travers du cours "Functional Progra
 
 ## Installation du JDK et de IntelliJ IDEA
 
-Si vous ne disposez pas déjà de ces outils, rendez-vous sur [cet article qui décrit l'installation de IntelliJ IDEA sous Ubuntu](/post/installation-intellij-idea-ubuntu "Tutoriel d'nstallation de InteeliJ IDEA sous Ubuntu").
+Si vous ne disposez pas déjà de ces outils, rendez-vous sur [cet article qui décrit l'installation de IntelliJ IDEA sous Ubuntu]({% post_url 2013-10-19-installation-intellij-idea-ubuntu %} "Tutoriel d'nstallation de InteeliJ IDEA sous Ubuntu").
 
 ## Installation du plugin Scala pour IntelliJ IDEA
 

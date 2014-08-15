@@ -11,7 +11,7 @@ redirect_from:
 
 A chaque thème ses spécificités, [Suffusion](http://aquoid.com/news/themes/suffusion/ "Thème Suffusion pour Wordpress") ne fait pas exception à la règle.
 
-Après la [traduction française du thème](/post/traduction-wordpress-suffusion-disqus/ "Traduction française de Suffusion et Disqus pour Wordpress"), cet article résume quelques petits trucs qui peuvent s'avérer utiles lors de l'utilisation de Suffusion : création d'une "Page of posts" pour la page d'accueil, utilisation des extraits... laissez-vous guider par les gros titres ! :)
+Après la [traduction française du thème]({% post_url 2013-05-11-traduction-wordpress-suffusion-disqus %} "Traduction française de Suffusion et Disqus pour Wordpress"), cet article résume quelques petits trucs qui peuvent s'avérer utiles lors de l'utilisation de Suffusion : création d'une "Page of posts" pour la page d'accueil, utilisation des extraits... laissez-vous guider par les gros titres ! :)
 
 Cet article est amené à évoluer, notamment à chaque fois qu'une nouvelle fonctionnalité intéressante du thème sera utilisée sur ce site.
 
