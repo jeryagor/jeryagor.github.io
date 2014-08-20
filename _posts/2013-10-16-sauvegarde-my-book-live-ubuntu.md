@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Sauvegarde automatique sur WD My Book Live sous Ubuntu"
-date: 2013-10-16
 description: "Une marche à suivre détaillée sous Ubuntu pour mettre en place des sauvegardes automatiques de vos données sur un disque réseau WD My Book Live."
 category: mybooklive
 redirect_from:

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Migration WordPress : déplacer votre blog sur un nouveau serveur"
-date: 2013-09-03
 description: "Une marche à suivre pour réussir la migration Wordpress sur un nouveau serveur, accompagnée d'une piqûre de rappel pour l'installation d'un serveur web."
 category: wordpress
 redirect_from:

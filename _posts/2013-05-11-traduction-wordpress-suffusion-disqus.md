@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Traduction française pour WordPress, Suffusion et Disqus"
-date: 2013-05-11
 description: "Cet article s'intéresse au passage en français de WordPress et, en particulier, du thème Suffusion et de l'extension Disqus. Suivez le guide !"
 category: wordpress
 redirect_from:

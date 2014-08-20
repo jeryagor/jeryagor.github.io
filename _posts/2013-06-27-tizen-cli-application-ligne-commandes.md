@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Tizen CLI : application Tizen en ligne de commandes"
-date: 2013-06-27
 description: "Le SDK Tizen est fourni avec tous les outils pour déployer votre application en dehors de Tizen IDE. Découvrez les commandes de Tizen CLI !"
 category: tizen
 redirect_from:

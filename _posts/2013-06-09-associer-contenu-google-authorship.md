@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Google Authorship : associez votre contenu à votre compte Google"
-date: 2013-06-09
 description: "Découvrez comment profiter de Google Authorship pour mettre en en avant le contenu que vous publiez et l'associer à votre compte Google+."
 category: google
 redirect_from:

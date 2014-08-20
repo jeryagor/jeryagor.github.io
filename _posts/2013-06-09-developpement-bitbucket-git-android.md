@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Développement collaboratif avec Git, Bitbucket et Android Studio"
-date: 2013-06-09
 description: "Utilisez un dépôt distant Git (Bitbucket ou autre) pour faciliter le développement collaboratif de vos applications avec Android Studio."
 category: android
 redirect_from:

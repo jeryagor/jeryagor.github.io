@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Désactiver les commentaires sur WordPress"
-date: 2013-06-13
 description: "Pour désactiver les commentaires sur une page ou un article Wordpress, il suffit de décocher la bonne case au bon endroit."
 category: wordpress
 redirect_from:

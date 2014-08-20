@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Sérialisation de données au format JSON en Go (golang)"
-date: 2013-10-29
 description: "Au travers d'exemples de code, découvrez comment utiliser le package json fourni avec Go pour encoder et décoder vos données au format JSON."
 category: golang
 redirect_from:

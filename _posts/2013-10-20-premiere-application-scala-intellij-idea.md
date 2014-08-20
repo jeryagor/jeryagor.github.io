@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Première application Scala avec IntelliJ IDEA"
-date: 2013-10-20
 description: "Un aperçu rapide de la mise en place d'un projet Scala sous IntelliJ IDEA : installation des outils, création d'un projet et du classique Hello World."
 category: scala
 redirect_from:
