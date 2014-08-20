@@ -11,7 +11,7 @@ redirect_from:
 
 Que vous soyez amateur de lignes de commandes ou détracteur d'Eclipse (sur lequel Tizen IDE s'appuie), Tizen CLI (Command Line Interface) vous fournit tous les outils nécessaires au déploiement d'une application mobile.
 
-L'article suppose que vous avez déjà [installé le SDK Tizen](/post/installation-du-sdk-tizen-sur-windows-8 "Tutoriel d'installation du SDK Tizen sur Windows 8") !
+L'article suppose que vous avez déjà [installé le SDK Tizen]({% post_url 2013-06-26-installation-du-sdk-tizen-sur-windows-8 %} "Tutoriel d'installation du SDK Tizen sur Windows 8") !
 
 ## Découverte de Tizen CLI
 

@@ -9,7 +9,7 @@ redirect_from:
   - /sauvegarde-my-book-live-windows/
 ---
 
-Il y a quelques temps, je vous parlais de la mise en place de [sauvegarde automatique sur un disque réseau WD My Book Live](/sauvegarde-my-book-live-ubuntu/ "Tutoriel sur la sauvegarde sur My Book Live sous Ubuntu") sous Unix.
+Il y a quelques temps, je vous parlais de la mise en place de [sauvegarde automatique sur un disque réseau WD My Book Live]({% post_url 2013-10-16-sauvegarde-my-book-live-ubuntu %} "Tutoriel sur la sauvegarde sur My Book Live sous Ubuntu") sous Unix.
 
 Dans cet article, je vous propose de faire la même chose sous Windows.
 
