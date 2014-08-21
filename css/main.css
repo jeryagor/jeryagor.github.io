@@ -130,6 +130,15 @@ footer {
     margin-right: auto;
 }
 
+.post table, .post th, .post td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.post table {
+  margin: auto;
+}
+
 /* Simple Share buttons */
 
 .ssba, .ssba a {

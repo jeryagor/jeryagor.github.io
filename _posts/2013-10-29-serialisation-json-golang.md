@@ -67,8 +67,6 @@ Mais que faire si le destinataire des données est sensible à la casse et consi
 
 C'est là que les tags JSON entrent en jeu : ils sont ajoutés à la suite de la définition des attributs et donnent des indications supplémentaires sur la manière de sérialiser les données.
 
-|                             |                                                                     |
-|-----------------------------|---------------------------------------------------------------------|
 | \`json:"myName"\`           | attribut sérialisé avec la clé "myName"                             |
 | \`json:"-"\`                | attribut ignoré                                                     |
 | \`json:",omitempty"\`       | attribut ignoré s'il est vide                                       |
