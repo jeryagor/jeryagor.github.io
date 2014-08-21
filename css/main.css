@@ -157,6 +157,23 @@ footer {
     vertical-align:middle
 }
 
+/* Media queries */
+
+@media screen and (max-width: 568px) {
+  .social-links a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 13px;
+  }
+  .pure-menu.pure-menu-horizontal>.pure-menu-heading.pure-menu-heading {
+      display: none;
+  }
+}
+
 /* Pygments theme: see http://sourcey.com/darkly-pygments-css-theme/ */
 
 .highlight {
