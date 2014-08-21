@@ -167,7 +167,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 13px;
+    font-size: 14px;
   }
   .pure-menu.pure-menu-horizontal>.pure-menu-heading.pure-menu-heading {
       display: none;
