@@ -17,7 +17,7 @@ C'est parti !
 
 La création d'un espace de travail sur Cloud9 est très simple, que ce soit en clônant un dépôt existant ou en commençant sur un projet vierge. Certains environnements prédéfinis existent (Django, Wordpress, Node...) mais on peut aussi choisir l'option *Custom* pour faire tout ça à notre sauce.
 
-On a accès à une console qui nous permet d'installer toutes les dépendances nécessaires, comme on pourrait le faire sur n'importe quelle machine Linux : on peut donc tout faire à partir de cette console (compilation, test, gestion de version).
+On a accès à une console qui nous permet d'installer toutes les dépendances nécessaires, comme sur n'importe quelle machine Linux : on peut donc tout faire à partir de cette console (compilation, test, gestion de version).
 
 L'éditeur utilisé est [Ace](https://github.com/ajaxorg/ace), il est open source.
 
