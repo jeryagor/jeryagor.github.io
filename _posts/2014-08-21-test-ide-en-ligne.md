@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test de quelques environnements de développement en ligne"
-description: "Avant d'envisager le saut vers le tout en ligne, cet article propose une revue de quelques IDE : Cloud9, codeanywhere, Cobebox et Nitrous.IO."
+description: "Avant d'envisager le saut vers le tout en ligne, cet article propose une revue de quelques IDE en ligne : Cloud9, codeanywhere, Cobebox et Nitrous.IO."
 category: online
 ---
 
