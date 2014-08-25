@@ -2,6 +2,15 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   {% include post-summary.html %}
 {% endfor %}
+
+<div class="paginator center">
+  {% if paginator.previous_page %}
+    <a class="pure-button prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&#171; Précédent</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="pure-button next align-right" href="/page{{ paginator.next_page }}">Suivant &#187;</a>
+  {% endif %}
+</div>
