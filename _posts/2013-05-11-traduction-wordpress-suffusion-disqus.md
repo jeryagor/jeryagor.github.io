@@ -91,7 +91,7 @@ Deux petites remarques qui vous feront peut-être gagner du temps :
 
 Nativement, cette extension est en anglais.
 
-Pour la traduire, rien de compliqué, tout se passe dans l'onglet "Settings" de votre [espace d'administration Disqus](http://disqus.com/admin/settings/ "Espace d'administration Disqus").
+Pour la traduire, rien de compliqué, tout se passe dans l'onglet "Settings" de votre [espace d'administration Disqus](http://disqus.com/admin/settings/ "Espace d'administration Disqus"), sur le site de Disqus.
 
 Deux actions à réaliser :
 
