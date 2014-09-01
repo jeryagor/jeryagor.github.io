@@ -8,6 +8,8 @@ redirect_from:
   - /associer-contenu-google-authorship/
 ---
 
+**Mise à jour du 01/09/2014 :** L'expérience Google Authorship ne s'est pas révelée concluante. Depuis le 29 août 2014, Google [abandonne l'authorship dans ses résultats de recherches](http://www.journaldunet.com/solutions/seo-referencement/seo-google-abandonne-l-authorship.shtml) : vous pouvez donc supprimer la balise *author* pointant vers votre profil Google+ sur vos pages.
+
 Lors de vos recherches Google, vous avez probablement déjà vu des résultats de recherche associés à une photo / profil Google+. Cette fonctionnalité, nommée Google Authorship, permet d'associer le contenu que vous créez à votre profil Google+. Elle met également en avant vos publications, les miniatures ayant tendance à attirer l’œil.
 
 ## Création d'un compte Google+
