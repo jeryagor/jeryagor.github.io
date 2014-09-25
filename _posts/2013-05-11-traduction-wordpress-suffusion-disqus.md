@@ -7,6 +7,7 @@ redirect_from:
   - /post/traduction-wordpress-suffusion-disqus/
   - /traduction-wordpress-suffusion-disqus/
   - /2013/05/traduction-francaise-pour-wordpress-theme-suffusion-et-extension-disqus/
+  - /2013/05/traduction-francaise-pour-wordpress-suffusion-et-disqus/
 ---
 
 Lorsqu'on lit du contenu en français, il est toujours appréciable de ne pas se retrouver avec un mélange de langues qui rend l'ensemble incohérent. Une traduction de WordPress, Suffusion et Disqus, que j'utilise sur ce blog, me paraissait donc naturelle.
