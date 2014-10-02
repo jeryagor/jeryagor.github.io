@@ -69,7 +69,7 @@ Comme pour les deux précédents, on se retrouve dans un éditeur assez simple :
 
 Il y a également un accès console mais, attention, pas de sudo ici ! Si besoin, le menu "Autoparts" permet d'accéder à un gestionnaire de paquets.
 
-A noter qu'il existe une application desktop permettant de synchroniser ses fichiers avec ses *boxes* tout en utilisant son éditeur favori en local.
+A noter qu'il existe une application desktop permettant de synchroniser ses fichiers avec ses *boxes* tout en utilisant son éditeur favori en local. Nitrous.IO fournit également une application Chrome qui fournit une expérience plus native à ceux qui souhaitent travailler depuis un chromebook ou avoir un IDE portable. 
 
 L'offre gratuite permet de faire tourner une *box*. Pour avoir davantage de *boxes*, avoir une *box* allumée en permanence, avoir plus d'espace disque, plus de RAM... il est possible d'acheter des NO2 et les tarifs peuvent donc varier selon les besoins. Parmi les IDEs testés, c'est clairement celui qui offre la facturation la plus flexible.
 
@@ -79,20 +79,8 @@ L'offre gratuite permet de faire tourner une *box*. Pour avoir davantage de *box
 
 Je n’ai volontairement pas passé en revue les fonctionnalités de travail collaboratif qu’offrent certaines de ces plate-formes car ce n’est pas dans cette optique que je les évaluais.
 
-Pour noter chacun des IDE en ligne, j'ai attribué une note à chacun des critères (7 points pour l'éditeur en lui-même, 7 points pour l'environnement de travail en dehors de l'éditeur et enfin 6 points pour la tarification) ce qui amène à une note sur 20.
-
-|-------------------|--------|--------------|---------|------------|
-|                   | Cloud9 | codeanywhere | Codebox | Nitrous.IO |
-|:-----------------:|:------:|:------------:|:-------:|:----------:|
-| Espace de travail | 6      | 4            | 4       | 4          |
-|-------------------|--------|--------------|---------|------------|
-| Editeur           | 6      | 4            | 4       | 4          |
-|-------------------|--------|--------------|---------|------------|
-| Tarification      | 4      | 6            | 5       | 6          |
-|-------------------|--------|--------------|---------|------------|
-| **Global**        | **16** | **14**       | **13**  | **14**     |
-|-------------------|--------|--------------|---------|------------|
-
 Parmi tous ces IDE, j'ai donc été particulièrement séduit par Cloud9 qui, malgré sa tarification plus agressive que les autres pour son offre payante, m'a beaucoup plu par la beauté de son éditeur et la simplicité de son utilisation. Le rendu était plus fluide que sur les autres plate-formes, on en oublierait presque qu'on est en ligne. Ses fonctionnalités sont suffisamment ouvertes pour permettre d'adresser différents process de développement, que ce soit via les DevBox ou en branchant sa propre machine virtuelle.
+
+EN terme de tarification, si l'offre gratuite de Cloud9 ne vous convient pas, Nitrous.IO semble une très bonne alternative, notamment grâce à ses applications auxiliaires (desktop ou Chrome pour ceux qui souhaitent développer sur un chromebook).
 
 Il existe bien d'autres environnements à tester, n'hésitez pas à laisser un commentaire pour faire part de vos expériences.
