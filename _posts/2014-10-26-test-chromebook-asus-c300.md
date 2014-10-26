@@ -11,6 +11,12 @@ J'ai opté pour un [Asus C300](http://www.asus.com/fr/Notebooks_Ultrabooks/ASUS_
 
 Voici mon retour d'expérience après plus d'un mois d'utilisation quotidienne.
 
+## Commande et packaging
+
+La disponibilité de ce modèle en France étant assez limitée au moment de mon achat, j'ai acheté l'appareil sur [AdmiStore](http://admistore.fr/), une boutique que je ne connaissais pas auparavant. La commande a été passée le lundi en fin de matinée pour 310,58€ (frais de port inclus) et j'ai reçu l'appareil le lendemain.
+
+Le packaging est simple, comme on peut s'y attendre sur cette gamme de produits, mais efficace : le chromebook est bien maintenu et protégé dans une malette cartonnée.
+
 ## Ecran
 
 Les écrans semblent être un des grands sujets de discussion dans la communauté autour des chromebooks.
@@ -19,7 +25,7 @@ Le Asus C300 est équipé d'un écran HD 13.3 pouces (résolution 1366 x 768).
 
 Au moment de l'achat, j'ai hésité entre plusieurs modèles avec des écrans plus petits (11.6 pouces) ou plus grands (14 pouces), voire avec des résolutions supérieures (Full HD) mais qui n'étaient malheureusement pas disponibles en Europe.
 
-Au final, je suis assez content de mon choix. La qualité de l'écran de ce Asus n'est pas aussi mauvaise que ce à quoi je m'attendais. J'utilise l'ordinateur en intérieur et l'écran est parfait pour mon usage : il offre un affichage équivalent à ce que j'avais pu avoir sur d'autres ordinateurs portables auparavant.
+Au final, je suis assez content de mon choix. La qualité de l'écran de cet Asus n'est pas aussi mauvaise que ce à quoi je m'attendais. J'utilise l'ordinateur en intérieur et l'écran est parfait pour mon usage : il offre un affichage équivalent à ce que j'avais pu avoir sur d'autres ordinateurs portables auparavant.
 
 ![Asus C300 vue écran](/img/uploads/asus_c300_front.png)
 
@@ -37,7 +43,7 @@ Pour les amateurs de benchmarks, le score Octane est de 6721.
 
 En terme de connectivité réseau, c'est très prometteur sur le papier : du wifi 802.11a/b/g/n/ac (mon routeur n'est pas compatible ac cela dit).
 
-Je dispose à mon domicile d'une connexion par fibre optique chez Orange et j'ai fait quelques tests comparatifs sur SpeedTest avec une connexion filaire Ethernet sur un poste fixe et une connexion wifi sur un ordinateur portable Toshiba moyenne gamme tournant sous Windows 8. A noter que le chromebook se connecte à mon réseau wifi via la bande 5 Ghz.
+Je dispose à mon domicile d'une connexion par fibre optique chez Orange et j'ai fait quelques tests sur SpeedTest. La comparaison a été faite avec une connexion filaire Ethernet sur un poste fixe et une connexion wifi sur un autre ordinateur portable (Toshiba moyenne gamme tournant sous Windows 8). A noter que le chromebook se connecte à mon réseau wifi via la bande 5 Ghz.
 
 Appareil          | Connexion | Download    | Upload
 ------------------|--------------------------------------
@@ -45,7 +51,7 @@ Fixe              | Ethernet  | 285.40 Mbps | 47.72 Mbps
 Portable Toshiba  | Wifi      |  51.27 Mbps | 47.71 Mbps
 Asus C300         | Wifi      |  26.16 Mbps | 46.72 Mbps
 
-Sur ce test, le Asus C300 montre des débits beaucoup plus faibles en download que ce qu'on l'on pourrait attendre en wifi, les valeurs en upload sont quant à elles tout à fait normales. Cette différence s'efface lorsque le chromebook est branché sur l'alimentation secteur. J'ai été en contact avec le support Google mais aucune solution ne m'a été apportée.
+Sur ce test, le Asus C300 montre des débits beaucoup plus faibles en download que ce qu'on l'on pourrait attendre, les valeurs en upload sont quant à elles tout à fait normales. Cette différence s'efface lorsque le chromebook est branché sur l'alimentation secteur, un moyen d'économiser davantage la batterie ? J'ai été en contact avec le support Google mais aucune solution ne m'a été apportée.
 
 ## Autonomie
 
@@ -55,13 +61,19 @@ Pour donner un exemple, j'ai fait quelques mesures en suivant un cours en ligne 
 
 Le processeur Bay Trail a des lacunes mais il a au moins l'avantage d'offrir une excellente autonomie à l'appareil.
 
+## Connectique
+
+Connectique standard pour un chromebook, on y retrouve une prise jack, deux ports USB (un 2.0 et un 3.0), un port HDMI, un lecteur de carte SD et une entrée alimentation.
+
+J'ignore pourquoi mais il faut beaucoup forcer sur l'adaptateur secteur pour le brancher sur les prises électriques de mon domicile...
+
 ## Dans la vie de tous les jours
 
-Avec ses 1.4 kg, il est agréable à utiliser en mobilité : on sent vraiment la différence par rapport aux classiques 15 pouces qui pèsent généralement un kilogramme de plus.
+Avec ses 1.4 kg, ce chromebook est très agréable à transporter : on sent vraiment la différence par rapport aux classiques 15 pouces qui pèsent généralement un kilogramme de plus.
 
 Le processeur Bay Trail ne chauffe pas ce qui permet d'utiliser l'ordinateur tout en étant assis sur un canapé. Et c'est le calme total vu qu'il n'y a pas de ventilateur, mon HTPC est plus bruyant... :)
 
-ChromeOS fonctionne très bien et j'ai rapidement trouvé des applications répondant à mes besoins : Plex, bureau à distance, client FTP, client SSH, éditeurs de texte avancés... J'ai aussi découvert quelques outils en ligne très sympas, notamment [Pixlr](http://apps.pixlr.com/editor/) pour l'édition d'images.
+Chrome OS fonctionne très bien et j'ai rapidement trouvé des applications répondant à mes besoins : Plex, bureau à distance, client FTP, client SSH, éditeurs de texte avancés... J'ai aussi découvert quelques outils en ligne très sympas, notamment [Pixlr](http://apps.pixlr.com/editor/) pour l'édition d'images.
 
 Avec l'espace disque limité, on est largement incités à utiliser les 100 Go offerts sur Google Drive. Changer de machine devient un jeu d'enfant car, tout étant synchronisé dans le cloud, la restauration des données et applications installées est automatique à la connexion. Un certain confort donc, à condition d'accepter de laisser une partie de ses données à un tiers.
 
