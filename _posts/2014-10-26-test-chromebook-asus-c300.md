@@ -71,8 +71,6 @@ En tant que développeur, je ne dispose pas de tous les outils nécessaires sous
 
 Une fois le chromebook passé en mode développeur, il est toutefois possible de faire tourner une Ubuntu ou une Arch Linux via un chroot et d'avoir ainsi accès à tous les outils habituels. J'y reviendrai dans un prochain article.
 
-![Asus C300 vue arrière](/img/uploads/asus_c300_back.png)
-
 ## Conclusion
 
 Le chromebook Asus C300 est un ordinateur ultra-portable tournant sur Chrome OS.
@@ -80,3 +78,5 @@ Le chromebook Asus C300 est un ordinateur ultra-portable tournant sur Chrome OS.
 Il présente quelques faiblesses au niveau du processeur et les tests menés sur la connectivité wifi s'avèrent décevants. Toutefois, la durée de vie exceptionnelle de sa batterie, sa taille et son design fanless sont d'excellents atouts en mobilité.
 
 Disponible à un peu plus de 300€ en Europe, le rapport qualité-prix reste bon pour des utilisateurs pas trop pointilleux. Pour les utilisateurs plus exigeants, il vaudra mieux attendre la prochaine génération de processeurs qui, je l'espère, proposera de meilleures performances sans sacrifier la durée de la batterie.
+
+![Asus C300 vue arrière](/img/uploads/asus_c300_back.png)
