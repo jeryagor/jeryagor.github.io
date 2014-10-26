@@ -29,7 +29,7 @@ Le Asus C300 est équipé d'un processeur [Intel Bay Trail N2830](http://ark.int
 
 Le gros point fort de ce processeur, c'est sa consommation (PDT 7.5W). Et cela se ressent sur la durée de vie de la batterie, j'y reviendrai un peu plus loin. Cela a aussi permis à Asus d'opter pour un refroidissement passif, l'absence de ventilateur est un plaisir pour les oreilles.
 
-Malheureusement, les performances ne sont pas toujours au rendez-vous : par exemple, la lecture de vidéos en Full HD sur Youtube montre quelques saccades, le parcours de pages lourdes types Google+ n'est pas fluide... On finit par s'y habituer mais c'est clairement moins confortable que sur une machine plus véloce.
+Malheureusement, les performances ne sont pas toujours au rendez-vous : par exemple, le parcours de pages lourdes types Google+ n'est pas fluide et la lecture de vidéos en Full HD sur Youtube montre quelques saccades (rassurez-vous, ça fonctionne parfaitement en 720p). On finit par s'y habituer mais c'est clairement moins confortable que sur une machine plus véloce.
 
 Pour les amateurs de benchmarks, le score Octane est de 6721.
 
