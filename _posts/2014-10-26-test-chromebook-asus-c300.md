@@ -2,7 +2,7 @@
 layout: post
 title: "Test du chromebook Asus C300"
 description: "Mon retour d'expérience après un mois d'utilisation du chromebook Asus C300, un ordinateur portable 13.3 pouces."
-category: chromebook
+category: chrome
 ---
 
 Après avoir entendu de nombreux retours positifs sur les chromebooks, j'ai moi aussi décidé d'en acheter un pour me forger ma propre opinion.
