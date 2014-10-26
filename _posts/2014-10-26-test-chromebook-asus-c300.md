@@ -6,8 +6,10 @@ category: chrome
 ---
 
 Après avoir entendu de nombreux retours positifs sur les chromebooks, j'ai moi aussi décidé d'en acheter un pour me forger ma propre opinion.
+
 J'ai opté pour un [Asus C300](http://www.asus.com/fr/Notebooks_Ultrabooks/ASUS_Chromebook_C300/), le modèle avec 4 Go de RAM et un SSD de 32 Go.
-Après plus d'un mois d'utilisation quotidienne, voici mon retour d'expérience.
+
+Voici mon retour d'expérience après plus d'un mois d'utilisation quotidienne.
 
 ## Ecran
 
@@ -19,6 +21,8 @@ Au moment de l'achat, j'ai hésité entre plusieurs modèles avec des écrans pl
 
 Au final, je suis assez content de mon choix. La qualité de l'écran de ce Asus n'est pas aussi mauvaise que ce à quoi je m'attendais. J'utilise l'ordinateur en intérieur et l'écran est parfait pour mon usage : il offre un affichage équivalent à ce que j'avais pu avoir sur d'autres ordinateurs portables auparavant.
 
+![Asus C300 vue écran](/img/uploads/asus_c300_front.png)
+
 ## Processeur
 
 Le Asus C300 est équipé d'un processeur [Intel Bay Trail N2830](http://ark.intel.com/fr/products/81071/Intel-Celeron-Processor-N2830-1M-Cache-up-to-2_41-GHz) (2 coeurs, 2.16 Ghz).
@@ -27,13 +31,13 @@ Le gros point fort de ce processeur, c'est sa consommation (PDT 7.5W). Et cela s
 
 Malheureusement, les performances ne sont pas toujours au rendez-vous : par exemple, la lecture de vidéos en Full HD sur Youtube montre quelques saccades, le parcours de pages lourdes types Google+ n'est pas fluide... On finit par s'y habituer mais c'est clairement moins confortable que sur une machine plus véloce.
 
-Pour les amateurs de benchmarks, le score Octane est de 6721. 
+Pour les amateurs de benchmarks, le score Octane est de 6721.
 
 ## Réseau
 
 En terme de connectivité réseau, c'est très prometteur sur le papier : du wifi 802.11a/b/g/n/ac (mon routeur n'est pas compatible ac cela dit).
 
-Je dispose à mon domicile d'une connexion par fibre optique chez Orange et j'ai fait quelques tests comparatifs avec une connexion filaire Ethernet sur un poste fixe et une connexion wifi sur un ordinateur portable Toshiba moyenne gamme tournant sous Windows 8. A noter que le chromebook se connecte à mon réseau wifi via la bande 5 Ghz.
+Je dispose à mon domicile d'une connexion par fibre optique chez Orange et j'ai fait quelques tests comparatifs sur SpeedTest avec une connexion filaire Ethernet sur un poste fixe et une connexion wifi sur un ordinateur portable Toshiba moyenne gamme tournant sous Windows 8. A noter que le chromebook se connecte à mon réseau wifi via la bande 5 Ghz.
 
 Appareil          | Connexion | Download    | Upload
 ------------------|--------------------------------------
@@ -41,7 +45,7 @@ Fixe              | Ethernet  | 285.40 Mbps | 47.72 Mbps
 Portable Toshiba  | Wifi      |  51.27 Mbps | 47.71 Mbps
 Asus C300         | Wifi      |  26.16 Mbps | 46.72 Mbps
 
-Sur ce test, le Asus C300 montre des débits beaucoup plus faibles en download que ce qu'on l'on pourrait attendre en wifi, les valeurs en upload sont quant à elles tout à fait normales. Cette différence s'efface lorsque le chromebook est branché sur l'alimentation secteur. J'ai été en contact avec le support Google mais aucune solution ne m'a été apportée. 
+Sur ce test, le Asus C300 montre des débits beaucoup plus faibles en download que ce qu'on l'on pourrait attendre en wifi, les valeurs en upload sont quant à elles tout à fait normales. Cette différence s'efface lorsque le chromebook est branché sur l'alimentation secteur. J'ai été en contact avec le support Google mais aucune solution ne m'a été apportée.
 
 ## Autonomie
 
@@ -57,7 +61,9 @@ Avec ses 1.4 kg, il est agréable à utiliser en mobilité : on sent vraiment la
 
 Le processeur Bay Trail ne chauffe pas ce qui permet d'utiliser l'ordinateur tout en étant assis sur un canapé. Et c'est le calme total vu qu'il n'y a pas de ventilateur, mon HTPC est plus bruyant... :)
 
-ChromeOS fonctionne très bien et j'ai rapidement trouvé des applications répondant à mes besoins : Plex, bureau à distance, client FTP, client SSH, éditeurs de texte avancés... Avec l'espace disque limité, on est largement incités à utiliser les 100 Go offerts sur Google Drive. Changer de machine devient un jeu d'enfant car, tout étant synchronisé dans le cloud, la restauration des données et applications installées à la connexion est automatique. Un certain confort donc, à condition d'accepter de laisser une partie de ses données à un tiers.
+ChromeOS fonctionne très bien et j'ai rapidement trouvé des applications répondant à mes besoins : Plex, bureau à distance, client FTP, client SSH, éditeurs de texte avancés... J'ai aussi découvert quelques outils en ligne très sympas, notamment [Pixlr](http://apps.pixlr.com/editor/) pour l'édition d'images.
+
+Avec l'espace disque limité, on est largement incités à utiliser les 100 Go offerts sur Google Drive. Changer de machine devient un jeu d'enfant car, tout étant synchronisé dans le cloud, la restauration des données et applications installées est automatique à la connexion. Un certain confort donc, à condition d'accepter de laisser une partie de ses données à un tiers.
 
 ## Et pour une utilisation plus avancée ?
 
@@ -65,10 +71,12 @@ En tant que développeur, je ne dispose pas de tous les outils nécessaires sous
 
 Une fois le chromebook passé en mode développeur, il est toutefois possible de faire tourner une Ubuntu ou une Arch Linux via un chroot et d'avoir ainsi accès à tous les outils habituels. J'y reviendrai dans un prochain article.
 
+![Asus C300 vue arrière](/img/uploads/asus_c300_back.png)
+
 ## Conclusion
 
 Le chromebook Asus C300 est un ordinateur ultra-portable tournant sur Chrome OS.
 
-Il présente quelques faiblesses au niveau du processeur et les tests menés sur la connectivité wifi s'avèrent décevants. Toutefois, la durée de vie exceptionnelle de sa batterie et son design fanless sont d'excellents atouts en mobilité.
+Il présente quelques faiblesses au niveau du processeur et les tests menés sur la connectivité wifi s'avèrent décevants. Toutefois, la durée de vie exceptionnelle de sa batterie, sa taille et son design fanless sont d'excellents atouts en mobilité.
 
 Disponible à un peu plus de 300€ en Europe, le rapport qualité-prix reste bon pour des utilisateurs pas trop pointilleux. Pour les utilisateurs plus exigeants, il vaudra mieux attendre la prochaine génération de processeurs qui, je l'espère, proposera de meilleures performances sans sacrifier la durée de la batterie.
