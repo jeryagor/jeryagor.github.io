@@ -17,6 +17,8 @@ La disponibilité de ce modèle en France étant assez limitée au moment de mon
 
 Le packaging est simple, comme on peut s'y attendre sur cette gamme de produits, mais efficace : le chromebook est bien maintenu et protégé dans une malette cartonnée.
 
+Le C300 est un très bel appareil : mon modèle est noir, la texture "rainurée" est agréable au toucher mais garde bien les traces de doigts.
+
 ## Ecran
 
 Les écrans semblent être un des grands sujets de discussion dans la communauté autour des chromebooks.
