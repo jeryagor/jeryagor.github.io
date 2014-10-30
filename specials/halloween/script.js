@@ -1,17 +1,9 @@
 // SOURCE: http://www.thinkful.com/learn/halloween-programming-tutorial/
-// Timers slightly modified
+// Play scary sound after a few seconds
 
-var ghost = document.getElementsByClassName("ghost-container")[0];
 var sound = new Audio("specials/halloween/file.wav");
-
-//Shows ghost and plays sound after five seconds
 setTimeout(function () {
   sound.load();
   sound.play();
-  ghost.style.visibility = "visible";
-}, 4000);
+}, 1500);
 
-//Hides ghost two seconds after appears
-setTimeout(function () {
-  ghost.style.visibility = "hidden";
-}, 6000);
