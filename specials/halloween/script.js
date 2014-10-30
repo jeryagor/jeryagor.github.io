@@ -2,7 +2,7 @@
 // Timers slightly modified
 
 var ghost = document.getElementsByClassName("ghost-container")[0];
-var sound = new Audio("file.wav");
+var sound = new Audio("specials/halloween/file.wav");
 
 //Shows ghost and plays sound after five seconds
 setTimeout(function () {
