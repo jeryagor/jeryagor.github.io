@@ -1,0 +1,14 @@
+.ghost-container {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  visibility: hidden;
+}
+
+.ghost {
+  z-index: 10;
+  display: block;
+  width: 550px;
+  position: relative;
+  margin: auto;
+}
