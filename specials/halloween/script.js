@@ -5,5 +5,5 @@ var sound = new Audio("specials/halloween/file.wav");
 setTimeout(function () {
   sound.load();
   sound.play();
-}, 1500);
+}, 1000);
 
