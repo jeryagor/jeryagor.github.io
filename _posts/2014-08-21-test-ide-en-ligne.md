@@ -81,6 +81,6 @@ Je n’ai volontairement pas passé en revue les fonctionnalités de travail col
 
 Parmi tous ces IDE, j'ai donc été particulièrement séduit par Cloud9 qui, malgré sa tarification plus agressive que les autres pour son offre payante, m'a beaucoup plu par la beauté de son éditeur et la simplicité de son utilisation. Le rendu était plus fluide que sur les autres plate-formes, on en oublierait presque qu'on est en ligne. Ses fonctionnalités sont suffisamment ouvertes pour permettre d'adresser différents process de développement, que ce soit via les DevBox ou en branchant sa propre machine virtuelle.
 
-EN terme de tarification, si l'offre gratuite de Cloud9 ne vous convient pas, Nitrous.IO semble une très bonne alternative, notamment grâce à ses applications auxiliaires (desktop ou Chrome pour ceux qui souhaitent développer sur un chromebook).
+En terme de tarification, si l'offre gratuite de Cloud9 ne vous convient pas, Nitrous.IO semble une très bonne alternative, notamment grâce à ses applications auxiliaires (desktop ou Chrome pour ceux qui souhaitent développer sur un chromebook).
 
 Il existe bien d'autres environnements à tester, n'hésitez pas à laisser un commentaire pour faire part de vos expériences.
