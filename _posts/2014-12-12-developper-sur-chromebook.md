@@ -43,7 +43,7 @@ Attention toutefois si votre chromebook est équipé d'un processeur ARM, il est
 
 ## Solution 3 : utiliser des outils en ligne
 
-J'ai récemment écrit un article concernant les [IDE en ligne]({% post_url 2014-08-21-test-ide-en-ligne} "Test de quelques IDE en ligne") tels que Cloud9 ou Nitrous.IO.
+J'ai récemment écrit un article concernant les [IDE en ligne]({% post_url 2014-08-21-test-ide-en-ligne %} "Test de quelques IDE en ligne") tels que Cloud9 ou Nitrous.IO.
 
 Les chromebooks étant des machines tournées vers le cloud, il s'agit d'une solution qui s'inscrit bien dans la philosophie de l'OS.
 
