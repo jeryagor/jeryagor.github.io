@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Développer sur un chromebook"
-description: "Dans cet article, je vous propose d'explorer différentes pistes pour utiliser un chromebook comme une machine de développement."
+description: "Dans cet article, je vous propose d'explorer quelques pistes pour utiliser un chromebook comme machine de développement."
 category: chrome
 ---
 
