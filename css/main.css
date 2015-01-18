@@ -1,48 +1,48 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 16px;
-    background-color: #95A5A6;
-    padding-bottom: 20px;
-    font-family: 'Droid Serif', serif;
-    text-align: justify;
+  font-size: 16px;
+  background-color: #95A5A6;
+  padding-bottom: 20px;
+  font-family: 'Droid Serif', serif;
+  text-align: justify;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 .content {
-    width: 1200px;
-    max-width: 95%;
-    margin: auto;
+  width: 1200px;
+  max-width: 95%;
+  margin: auto;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 /* Navigation menu */
 
 .pure-menu.pure-menu-horizontal>.pure-menu-heading.pure-menu-heading {
-    font-size: 2em;
-    text-transform: none;
+  font-size: 2em;
+  text-transform: none;
 }
 
 .pure-menu li {
-    text-align: center;
+  text-align: center;
 }
 
 .pull-right {
-    float: right;
+  float: right;
 }
 
 .social-links {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .paginator {
@@ -52,86 +52,86 @@ footer {
 /* List of posts */
 
 .post-entry, .container {
-    box-shadow: 0px 1px 1px rgba(0,0,0,0.08);
-    background: white;
-    padding: 1px 40px 40px 40px;
-    margin-top: 30px;
-    text-align: justify;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.08);
+  background: white;
+  padding: 1px 40px 40px 40px;
+  margin-top: 30px;
+  text-align: justify;
 }
 
 .post-entry {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .thumbnail {
-    float: left;
-    width: 75px;
-    height: 75px;
-    margin-top: -20px;
-    margin-left: -62px;
-    border-radius: 100px;
-    background-color: white;
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin-top: -20px;
+  margin-left: -62px;
+  border-radius: 100px;
+  background-color: white;
 }
 
 .post-entry h2 {
-    text-align: center;
-    font-size: 1.67em;
-    margin-bottom: 25px;
+  text-align: center;
+  font-size: 1.67em;
+  margin-bottom: 25px;
 }
 
 .post-entry h2 a {
-    color: #50585D;
-    transition: color ease 0.3s;
-    text-decoration: none;
+  color: #50585D;
+  transition: color ease 0.3s;
+  text-decoration: none;
 }
 
 .post-entry h2 a:hover {
-    color: #57A3E8;
+  color: #57A3E8;
 }
 
 .post-entry .date-box {
-    height: 2px;
-    background-color: #7A7A7A;
-    text-align: center;
+  height: 2px;
+  background-color: #7A7A7A;
+  text-align: center;
 }
 
 .post-entry .date-outer {
-    background-color: #fff; 
-    position: relative; 
-    top: -0.7em;
+  background-color: #fff; 
+  position: relative; 
+  top: -0.7em;
 }
 
 .post-entry .date-inner {
-    margin: 0px 20px; 
+  margin: 0px 20px; 
 }
 
 .post-entry .excerpt {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 
 /* Post */
 
 .post h1 {
-    text-align: center;
-    font-size: 2em;
-    color: #50585D;
+  text-align: center;
+  font-size: 2em;
+  color: #50585D;
 }
 
 .post h2 {
-    font-size: 1.7em;
+  font-size: 1.7em;
 }
 
 .post h3 {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 .post img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post table, .post th, .post td {
@@ -146,19 +146,19 @@ footer {
 /* Simple Share buttons */
 
 .ssba, .ssba a {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    background:none;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  background:none;
 }
 
 .ssba img {
-    width:60px !important;
-    padding:10px;
-    border:0;
-    box-shadow:none !important;
-    display:inline !important;
-    vertical-align:middle
+  width:60px !important;
+  padding:10px;
+  border:0;
+  box-shadow:none !important;
+  display:inline !important;
+  vertical-align:middle
 }
 
 /* Media queries */
@@ -174,7 +174,7 @@ footer {
     font-size: 14px;
   }
   .pure-menu.pure-menu-horizontal>.pure-menu-heading.pure-menu-heading {
-      display: none;
+    display: none;
   }
 }
 
@@ -218,9 +218,9 @@ footer {
   font-family: 'my-icons';
   src: url('../font/my-icons.eot?29073368');
   src: url('../font/my-icons.eot?29073368#iefix') format('embedded-opentype'),
-       url('../font/my-icons.woff?29073368') format('woff'),
-       url('../font/my-icons.ttf?29073368') format('truetype'),
-       url('../font/my-icons.svg?29073368#my-icons') format('svg');
+  url('../font/my-icons.woff?29073368') format('woff'),
+  url('../font/my-icons.ttf?29073368') format('truetype'),
+  url('../font/my-icons.svg?29073368#my-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -250,27 +250,31 @@ footer {
 /* Categories */
 
 .button-category {
-    font-weight: bold;
-    padding: 4px 8px;
-    color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  color: white;
 }
 
 .category-android {
-    background-color: #2FAD4B;
+  background-color: #2FAD4B;
+}
+
+.category-cpp {
+  background-color: #004481;
 }
 
 .category-golang {
-    background-color: #0E58B2;
+  background-color: #0E58B2;
 }
 
 .category-scala {
-    background-color: #A30000;
+  background-color: #A30000;
 }
 
 .category-tizen {
-    background-color: #0E59B5;
+  background-color: #0E59B5;
 }
 
 .category-intellij, .category-wordpress, .category-mybooklive, .category-google, .category-online, .category-chrome {
-    background-color: #4F4F4F;
+  background-color: #4F4F4F;
 }
