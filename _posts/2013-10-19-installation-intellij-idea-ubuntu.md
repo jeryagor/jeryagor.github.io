@@ -2,7 +2,7 @@
 layout: post
 title: "Installation de IntelliJ IDEA sous Ubuntu"
 description: "Quelques notes concernant l'installation de IntelliJ IDEA sous Ubuntu : installation du JDK, de l'IDE et ajout d'un raccourci dans la barre de lancement de Unity."
-category: intellij
+category: ide
 redirect_from:
   - /post/installation-intellij-idea-ubuntu/
   - /installation-intellij-idea-ubuntu/
