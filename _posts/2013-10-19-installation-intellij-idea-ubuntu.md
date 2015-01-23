@@ -6,6 +6,7 @@ category: ide
 redirect_from:
   - /post/installation-intellij-idea-ubuntu/
   - /installation-intellij-idea-ubuntu/
+  - /intellij/2013/10/19/installation-intellij-idea-ubuntu/
 ---
 
 Voilà quelques notes rapides pour installer IntelliJ IDEA sur votre machine Ubuntu.
