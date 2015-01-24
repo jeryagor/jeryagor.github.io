@@ -20,19 +20,19 @@ Nous allons utiliser cette commande dans un fichier batch que je nommerai *sync\
 
 {% highlight bat %}
 rem Ouverture d'une connexion sur le disque
-net use \\mybooklive\jeryagor /user:jeryagor MOT_DE_PASSE
+net use \\mybooklive\jeremy /user:jeremy MOT_DE_PASSE
 
 rem Création d'une copie de D: vers le My Book Live en ignorant certains répertoires
 rem Les fichiers qui n'existent plus sur le répertoire local seront aussi supprimés du disque réseau
-robocopy D:\ \\mybooklive\jeryagor\ /MIR /Z /XD "Desktop" "Programmes" "Downloads" ".*" "$*" "System Volume Information"
+robocopy D:\ \\mybooklive\jeremy\ /MIR /Z /XD "Desktop" "Programmes" "Downloads" ".*" "$*" "System Volume Information"
 
 rem Fermeture de la connexion
-net use \\mybooklive\jeryagor /delete
+net use \\mybooklive\jeremy /delete
 {% endhighlight %}
 
-On commence par ouvrir une connexion vers le disque avec *net use* : cette commande reçoit le chemin vers le répertoire destination sur le My Book Live (*\\\\mybooklive\\jeryagor* dans mon cas) ainsi que mes identifiants (nom d'utilisateur et mot de passe utilisés pour se connecter au disque réseau, dans le cas d'un répertoire protégé).
+On commence par ouvrir une connexion vers le disque avec *net use* : cette commande reçoit le chemin vers le répertoire destination sur le My Book Live (*\\\\mybooklive\\jeremy* dans mon cas) ainsi que mes identifiants (nom d'utilisateur et mot de passe utilisés pour se connecter au disque réseau, dans le cas d'un répertoire protégé).
 
-Ensuite on lance robocopy de *D:\\* (mon disque de données) vers *\\\\mybooklive\\jeryagor*. Les options utilisées sont les suivantes :
+Ensuite on lance robocopy de *D:\\* (mon disque de données) vers *\\\\mybooklive\\jeremy*. Les options utilisées sont les suivantes :
 
 * /MIR => Copie miroir, tout ce qui n'est plus présent dans la source sera aussi supprimé dans la destination.
 * /Z => La copie recommence en cas d'échec.

@@ -117,7 +117,7 @@ ctest
 On a bien un test qui échoue :
 
 {% highlight text %}
-Test project /home/jeryagor/dev/blog-code-samples/01-boost-test-cmake/build
+Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
     Start 1: Test
 1/1 Test #1: Test .............................***Failed    0.00 sec
 
@@ -129,7 +129,7 @@ Pour avoir plus d'informations sur le test qui échoue, notamment son nom (cette
 Après correction du test, tout va mieux :
 
 {% highlight text %}
-Test project /home/jeryagor/dev/blog-code-samples/01-boost-test-cmake/build
+Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
     Start 1: Test
 1/1 Test #1: Test .............................   Passed    0.00 sec
 
@@ -197,7 +197,7 @@ add_test(LineTest line_test_exe)
 Le rapport de `ctest` sépare alors le résultat pour les deux exécutables sur deux lignes différentes :
 
 {% highlight text %}
-Test project /home/jeryagor/dev/blog-code-samples/01-boost-test-cmake/build
+Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
     Start 1: PointTest
 1/2 Test #1: PointTest ........................   Passed    0.01 sec
     Start 2: LineTest
@@ -206,6 +206,6 @@ Test project /home/jeryagor/dev/blog-code-samples/01-boost-test-cmake/build
 100% tests passed, 0 tests failed out of 2
 {% endhighlight %}
 
-Voici qui conclut cette introduction à Boost Test et CMake : le code final est disponible dans mon dépôt [GitHub](https://github.com/jeryagor/blog-code-samples/tree/master/01-boost-test-cmake).
+Voici qui conclut cette introduction à Boost Test et CMake : le code final est disponible dans mon dépôt [GitHub](https://github.com/jeremy/blog-code-samples/tree/master/01-boost-test-cmake).
 
 J'espère que cela vous aura aidé à surmonter les quelques difficultés qui peuvent apparaître dans la mise en place conjointe de ces deux outils.
