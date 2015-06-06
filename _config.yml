@@ -2,7 +2,7 @@
 title: Jérémy Ozog
 description: "Blog personnel de Jérémy Ozog, développeur C++ et technophile."
 baseurl: ""
-url: "http://www.jeremy-ozog.fr"
+url: "http://jeremy.ozog.fr"
 
 # Jekyll settings
 highlighter: pygments
