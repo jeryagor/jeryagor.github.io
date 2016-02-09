@@ -19,16 +19,16 @@ Deux packages sont également nécessaires : [oracle](https://godoc.org/golang.o
 
 Vous pouvez les installer via les commandes suivantes :
 
-{% highlight sh %}
+```sh
 go get -u -v golang.org/x/tools/cmd/oracle
 go get -u -v github.com/nsf/gocode          # Voir ci-dessous pour Windows
-{% endhighlight %}
+```
 
 Sous Windows, l'installation de gocode est légèrement différente :
 
-{% highlight sh %}
+```sh
 go get -u -ldflags -H=windowsgui github.com/nsf/gocode
-{% endhighlight %}
+```
 
 Une fois ces dépendances satisfaites, le plus simple pour installer GoTools est de passer par l'outil [Package Control](https://packagecontrol.io/) bien connu des utilisateurs de Sublime Text : commande "Package Install" puis "GoTools" et le tour est joué.
 
@@ -38,11 +38,11 @@ Par défaut, le plugin ne lance que *gofmt* à la sauvegarde d'un fichier.
 
 Pour que *goimports* soit exécuté avant *gofmt*, j'ai ajouté ces quelques lignes dans les settings du plugin (Preferences > Package Settings > GoTools > Settings - User) :
 
-{% highlight json %}
+```json
 {
     "format_backend": "both",
 }
-{% endhighlight %}
+```
 
 ## Utilisation avec les projets Sublime Text
 

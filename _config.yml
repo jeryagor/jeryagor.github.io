@@ -5,11 +5,16 @@ baseurl: ""
 url: "http://jeremy.ozog.fr"
 
 # Jekyll settings
-highlighter: pygments
-permalink:   pretty
-paginate:    10       # 10 posts per page
+permalink: pretty
+paginate:  10       # 10 posts per page
+markdown:  kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 # Plugins
 gems:
   - jekyll-redirect-from # Doc at https://help.github.com/articles/redirects-on-github-pages
   - jekyll-sitemap       # Doc at https://help.github.com/articles/sitemaps-for-github-pages
+  - jekyll-paginate
+  - rouge                # Syntax highlighter
