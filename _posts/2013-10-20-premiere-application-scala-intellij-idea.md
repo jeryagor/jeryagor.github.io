@@ -44,10 +44,10 @@ Clic droit sur "src" puis New > Scala Class.
 
 Nommez cette classe HelloWorld puis collez-y le contenu suivant :
 
-{% highlight scala %}
+```scala
 object HelloWorld extends App {
     println("Hello, world!")
 }
-{% endhighlight %}
+```
 
 L'application peut être lancée via le menu Run > Run 'Hello World' (raccourci Maj + F10 par défaut).

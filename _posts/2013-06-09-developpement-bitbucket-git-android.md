@@ -26,7 +26,7 @@ Attention, avant de faire un premier commit, il n'est peut-être pas judicieux d
 
 Avec Git, il est possible de créer un fichier .gitignore qui liste l'ensemble des éléments à ignorer lors des commits. Ce fichier peut être placé à la racine du projet. Dans le cas d'un projet Android Studio, à l'heure où j'écris cet article, le fichier .gitignore suivant remplit parfaitement son rôle :
 
-{% highlight text %}
+```text
 *.iml
 *.iws
 *.ipr
@@ -36,7 +36,7 @@ local.properties
 */build/
 *~
 *.swp
-{% endhighlight %}
+```
 
 L'avantage d'utiliser ce fichier .gitignore est que vous n'aurez pas trop de question à vous poser lors de vos commits, sélectionnez tout et laissez Git filtrer pour vous.
 
@@ -60,11 +60,11 @@ En haut de votre page de gestion de compte, cliquez sur "Create" et créez votre
 
 Le tutoriel de Bitbucket est très bien fait et vous indique différentes façons pour initialiser votre dépôt : dans notre cas, nous souhaitons utiliser le contenu d'un dépôt existant (notre dépôt local). Bitbucket devrait vous indiquer les commandes à utiliser, je me contenterai donc de les rappeler:
 
-{% highlight sh %}
+```sh
 cd /path/to/project/.git
 git remote add origin https://username@bitbucket.org/username/repository-name.git
 git push -u origin --all
-{% endhighlight %}
+```
 
 Dans les commandes ci-dessus, on commence par se placer dans le répertoire .git du projet. Ensuite, avec *git remote add*, on spécifie le dépôt distant à utiliser. Pour finir, l'ensemble du code du dépôt local est remonté dans le dépôt distant : il vous sera demandé de saisir votre mot de passe Bitbucket.
 
@@ -88,10 +88,10 @@ Le nouvel utilisateur aura alors accès à la page du dépôt et pourra récupé
 
 Il suffit alors d'exécuter les commandes suivantes, en remplaçant la source de la commande *git clone* par l'URL indiquée par Bitbucket (l'utilisateur invité devra saisir son propre mot de passe) :
 
-{% highlight sh %}
+```sh
 cd /path/to/project/clone/
 git clone https://newusername@bitbucket.org/newusername/repository-name.git
-{% endhighlight %}
+```
 
 ### Import du projet dans Android Studio
 

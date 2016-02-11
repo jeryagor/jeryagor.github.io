@@ -19,38 +19,38 @@ Commençons par activer l'accès au disque par SSH sans avoir à saisir de mot d
 * Rendez-vous ensuite sur [http://mybooklive/UI/ssh](http://mybooklive/UI/ssh "Page d'activation du SSH sur le My Book Live") et cochez "Activer SSH" : par défaut, l'identifiant est "root" et le mot de passe "welc0me" (avec un zéro à la place du O).
 * Dans une console, connectez vous en ssh sur le disque et changez le mot de passe root :
 
-{% highlight sh %}
+```sh
 ssh root@MyBookLive
 passwd root
-{% endhighlight %}
+```
 
 *   Sur votre ordinateur, générez une clé RSA dans votre dossier personnel :
 
-{% highlight sh %}
+```sh
 ssh-keygen -t rsa
-{% endhighlight %}
+```
 
 *   Créez un répertoire caché .ssh sur le NAS et ajoutez-y la clé, il vous sera demandé de saisir votre mot de passe root pour le disque :
 
-{% highlight sh %}
+```sh
 ssh root@MyBookLive mkdir -p .ssh
 cat .ssh/id_rsa.pub | ssh root@MyBookLive 'cat >> .ssh/authorized_keys'
 ssh root@MyBookLive
 chmod -R go-rwx .ssh
 exit
-{% endhighlight %}
+```
 
 A partir de maintenant, vous pouvez vous connecter sur votre disque My Book Live sans saisir votre mot de passe (depuis la machine où a été générée la clé uniquement, bien entendu), un premier pas vers l'automatisation. Pour cela, il vous suffira de :
 
-{% highlight sh %}
+```sh
 ssh root@MyBookLive
-{% endhighlight %}
+```
 
 ## Sauvegarde des données avec rsync
 
 Maintenant, voilà un tout petit script que j'ai appelé sync\_data\_nas.sh et qui va synchroniser votre répertoire personnel avec un répertoire présent sur le My Book Live (des commentaires ont été ajoutés directement dans le script pour une meilleure lisibilité) :
 
-{% highlight sh %}
+```sh
 # Répertoire local à synchroniser
 # Dans mon cas, je synchronise le dossier personnel
 LOCAL_DIR=/home/jeremy/
@@ -65,7 +65,7 @@ REMOTE_DIR=root@MyBookLive:/shares/jeremy/
 # --size-only : utilise uniquement les tailles des fichiers pour déterminer si un fichier a été modifié depuis le dernier backup (plus rapide)
 # --filter : filtre les fichiers qu'on ne souhaite pas sauvegarder (dans mon cas, les fichiers temporaires suffixés avec '~', les répertoires cachés commençant par '.' et le dossier "Téléchargements")
 rsync -ar $LOCAL_DIR $REMOTE_DIR --delete --size-only --progress --filter "- *~" --filter "- .*" --filter "- Téléchargements"
-{% endhighlight %}
+```
 
 La première copie peut être longue selon la quantité de donnée que vous stockez. Pour cette première copie, vous pouvez même opter pour une copie directe des plus gros répertoires, la copie directe étant bien plus rapide que rsync.
 
@@ -75,23 +75,23 @@ Pour exécuter le script périodiquement, une tâche cron fera l'affaire.
 
 Pour éditer la table de configuration de Cron :
 
-{% highlight sh %}
+```sh
 crontab -e
-{% endhighlight %}
+```
 
 La syntaxe pour spécifier la tâche à exécuter et le moment où elle est exécutée est la suivante :
 
-{% highlight text %}
+```text
 minute heure jour mois jour_semaine commande
-{% endhighlight %}
+```
 
 Une valeur peut être remplacée par * pour signifer que toute valeur de ce champ est acceptable.
 
 Dans mon cas, je veux l'exécuter chaque jour à 20h30, j'ajoute donc la ligne suivante en pointant vers le répertoire où le script sync\_data\_nas.sh se trouve :
 
-{% highlight text %}
+```text
 30 20 * * * SCRIPT_FOLDER/sync_data_nas.sh
-{% endhighlight %}
+```
 
 Ctrl + O et Entrée pour sauvegarder.
 

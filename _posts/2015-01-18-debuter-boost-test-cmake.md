@@ -22,23 +22,23 @@ Je me suis contenté d'écrire deux petites classes pour les besoins de cet arti
 
 Les deux fichiers *.h* sont placés dans un répertoire *src* et mon programme est compilé à partir du fichier *CMakeLists.txt* suivant :
 
-{% highlight cmake %}
+```cmake
 cmake_minimum_required(VERSION 2.8.4)
 project(boost_test_cmake)
 
 set(SOURCE_FILES src/main.cpp)            # Mon fichier main inclut Point.h et Line.h
 
 add_executable(main_exe ${SOURCE_FILES})
-{% endhighlight %}
+```
 
 Pour éviter de polluer le répertoire de code, je vous recommande de travailler en *out-of-source build* c'est-à-dire en écrivant les fichiers générés à la compilation dans un répertoire séparé : pour cela, il suffit de créer un sous-répertoire *build* et d'exécuter `cmake` depuis ce sous-répertoire.
 
-{% highlight sh %}
+```sh
 mkdir build
 cd build
 cmake ..
 make
-{% endhighlight %}
+```
 
 ## Mise en place des tests unitaires avec Boost Test
 
@@ -48,7 +48,7 @@ make
 
 Je vais commencer par écrire un test simple pour la classe Point, ce test se trouve dans *test/Point_Test.cpp* :
 
-{% highlight cpp %}
+```cpp
 #define BOOST_TEST_DYN_LINK           // A ajouter dans le cas d'une liaison dynamique à Boost Test
 #define BOOST_TEST_MODULE MyTest      // Nom du module de test
 
@@ -60,11 +60,11 @@ BOOST_AUTO_TEST_CASE(PointCoordinates) {  // Ce test s'appelle PointCoordinates
   BOOST_CHECK_EQUAL(p.getX(), 1.);        // Un test d'égalité, on vérifie que les coordonnées sont correctes
   BOOST_CHECK_EQUAL(p.getY(), 3.);        // Ce test devrait échouer, la coordonnée Y vaut 2...
 }
-{% endhighlight %}
+```
 
 Mon arborescence est donc la suivante :
 
-{% highlight sh %}
+```sh
 .
 |____CMakeLists.txt
 |____build
@@ -74,13 +74,13 @@ Mon arborescence est donc la suivante :
 | |____Line.h
 |____test
 | |____Point_Test.cpp
-{% endhighlight %}
+```
 
 CMake offre également des fonctionnalités pour simplifier les tests, il s'agit de `ctest`.
 
 Voici comment impacter *CMakeLists.txt* pour prendre en compte ce nouveau test :
 
-{% highlight cmake %}
+```cmake
 cmake_minimum_required(VERSION 2.8.4)
 project(boost_test_cmake)
 
@@ -104,37 +104,37 @@ enable_testing()
 add_executable(test_exe ${TEST_FILES})
 target_link_libraries(test_exe ${Boost_LIBRARIES})
 add_test(Test test_exe)
-{% endhighlight %}
+```
 
 Il suffit de compiler et de lancer `ctest`, toujours depuis le répertoire *build* :
 
-{% highlight sh %}
+```sh
 cmake ..
 make
 ctest
-{% endhighlight %}
+```
 
 On a bien un test qui échoue :
 
-{% highlight text %}
+```text
 Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
     Start 1: Test
 1/1 Test #1: Test .............................***Failed    0.00 sec
 
 0% tests passed, 1 tests failed out of 1
-{% endhighlight %}
+```
 
 Pour avoir plus d'informations sur le test qui échoue, notamment son nom (cette information est contenue dans les traces de Boost Test), il faut exécuter `ctest --verbose` ou aller parcourir le fichier *Testing/Temporary/LastTest.log* généré pendant l'exécution de `ctest`.
 
 Après correction du test, tout va mieux :
 
-{% highlight text %}
+```text
 Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
     Start 1: Test
 1/1 Test #1: Test .............................   Passed    0.00 sec
 
 100% tests passed, 0 tests failed out of 1
-{% endhighlight %}
+```
 
 #### Aller plus loin avec Boost Test
 
@@ -148,7 +148,7 @@ La liste complète est disponible sur la page [Test Tools](http://www.boost.org/
 
 Je crée maintenant un second source de test pour la classe Line, dans le fichier *test/Line_Test.cpp* :
 
-{% highlight cpp %}
+```cpp
 #include <boost/test/unit_test.hpp>
 #include "Line.h"
 
@@ -156,15 +156,15 @@ BOOST_AUTO_TEST_CASE(LineLength) {
   Line l(Point(0.,0.), Point(3.,4.));
   BOOST_CHECK_EQUAL(l.length(), 5.);    // La ligne doit être de longueur 5
 }
-{% endhighlight %}
+```
 
 Pour ce second source, je n'ai pas besoin définir de nouveau `BOOST_TEST_DYN_LINK` et `BOOST_TEST_MODULE` comment c'était le cas pour *Point_Test.cpp* car cela causerait des problèmes à la compilation (avec un message d'erreur du type *définitions multiples de « main »*).
 
 Si je ne souhaite avoir qu'un seul exécutable de test, l'impact sur le fichier *CMakeLists.txt* est minimal, il suffit d'ajouter *test/Line_Test.cpp* à la liste des sources de test :
 
-{% highlight cmake %}
+```cmake
 set(TEST_FILES test/Point_Test.cpp test/Line_Test.cpp)
-{% endhighlight %}
+```
 
 Les tests peuvent être lancés de la même façon que précédemment.
 
@@ -172,7 +172,7 @@ Les tests peuvent être lancés de la même façon que précédemment.
 
 Plutôt que de grouper tous les tests sous le même exécutable (une seule entrée dans `ctest`), il est possible de créer différents exécutables en adaptant le fichier *CMakeLists.txt* comme suit :
 
-{% highlight cmake %}
+```cmake
 cmake_minimum_required(VERSION 2.8.4)
 project(boost_test_cmake)
 
@@ -192,11 +192,11 @@ add_test(PointTest test_exe)
 add_executable(line_test_exe test/Line_Test.cpp)
 target_link_libraries(line_test_exe ${Boost_LIBRARIES})
 add_test(LineTest line_test_exe)
-{% endhighlight %}
+```
 
 Le rapport de `ctest` sépare alors le résultat pour les deux exécutables sur deux lignes différentes :
 
-{% highlight text %}
+```text
 Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
     Start 1: PointTest
 1/2 Test #1: PointTest ........................   Passed    0.01 sec
@@ -204,7 +204,7 @@ Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
 2/2 Test #2: LineTest .........................   Passed    0.00 sec
 
 100% tests passed, 0 tests failed out of 2
-{% endhighlight %}
+```
 
 Voici qui conclut cette introduction à Boost Test et CMake : le code final est disponible dans mon dépôt [GitHub](https://github.com/jeremy/blog-code-samples/tree/master/01-boost-test-cmake).
 

@@ -30,9 +30,9 @@ Ces fichiers sont à placer dans le répertoire wp-content/languages.
 
 Ensuite, il faut qu'il indiquer à WordPress d'utiliser le français comme langue de référence et, pour cela, il suffit d'éditer le fichier wp-config.php (qui se situe à la racine du répertoire wordpress) et de modifier (ou ajouter si pas présente) la définition de la variable *WPLANG*:
 
-{% highlight php %}
+```php
 define('WPLANG', 'fr_FR');
-{% endhighlight %}
+```
 
 Et le tour est joué !
 
@@ -44,7 +44,7 @@ Dans le répertoire wp-content/themes de WordPress, créez un sous-répertoire "
 
 Dans ce sous-répertoire, créez un fichier style.css et copiez-y le contenu suivant:
 
-{% highlight css %}
+```css
 /*
 Theme Name: Suffusion-FR
 Theme URI: http://aquoid.com/news/themes/suffusion/
@@ -54,7 +54,7 @@ Author: Aquoid
 Author URI: http://aquoid.com/
 Template: suffusion
 */
-{% endhighlight %}
+```
 
 La dernière ligne ("Template: suffusion") est particulièrement importante car elle indique à WordPress que ce thème enfant hérite de Suffusion !
 

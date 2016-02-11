@@ -22,10 +22,10 @@ Tout d'abord, voici quelques notes, pas forcément détaillées, pour installer 
 
 ### Installation d'un serveur web Apache
 
-{% highlight sh %}
+```sh
 apt-get install apache2
 /etc/init.d/apache2 start
-{% endhighlight %}
+```
 
 Un petit accès sur l'IP de votre serveur pour confirmer que l'installation s'est bien déroulée, vous devriez avoir la page ci-dessous.
 
@@ -33,17 +33,17 @@ Un petit accès sur l'IP de votre serveur pour confirmer que l'installation s'es
 
 ### Installation d'un serveur FTP
 
-{% highlight sh %}
+```sh
 apt-get install proftpd
-{% endhighlight %}
+```
 
 Sélectionnez un serveur "standalone" dans la majorité des cas.
 
 proftpd se sert des utilisateurs enregistrés sur système mais l'accès root n'est pas possible par défaut, question de sécurité j'imagine. Il faut donc créer un nouvel utilisateur afin de pouvoir vous connecter en FTP :
 
-{% highlight sh %}
+```sh
 adduser USER_NAME
-{% endhighlight %}
+```
 
 Il vous faudra saisir le mot de passe et quelques autres informations sur ce nouvel utilisateur.
 
@@ -51,17 +51,17 @@ Vous pouvez tester avec votre client FTP que tout fonctionne bien.
 
 ### Installation d'un serveur MySQL
 
-{% highlight sh %}
+```sh
 apt-get install mysql-server
-{% endhighlight %}
+```
 
 Il vous sera demandé de saisir un mot de passe root pour votre base.
 
 On sécurise tout ça :
 
-{% highlight sh %}
+```sh
 mysql_secure_installation
-{% endhighlight %}
+```
 
 *   Change the root password? > y si vous avez laissé un mot de passe vide, n sinon
 *   Remove anonymous users? > y
@@ -71,25 +71,25 @@ mysql_secure_installation
 
 ### Installation de phpMyAdmin
 
-{% highlight sh %}
+```sh
 apt-get install phpmyadmin
-{% endhighlight %}
+```
 
 Choisir apache2 comme serveur web. Il vous sera également demandé de saisir le mot de passe permettant d'accéder à votre base de données ainsi que celui que vous souhaitez utiliser pour phpMyAdmin.
 
 phpmyadmin ne semblant pas s'installer par défaut dans /var/www, il faudra créer un lien symbolique pour que apache sache où aller chercher :
 
-{% highlight sh %}
+```sh
 ln -s /usr/share/phpmyadmin /var/www/phpmyadmin
-{% endhighlight %}
+```
 
 ### Installation d'un serveur SMTP
 
 Une dernière installation, pour pouvoir envoyer des mails, ça peut être utile pour un formulaire de contact sur votre blog !
 
-{% highlight sh %}
+```sh
 apt-get install sendmail
-{% endhighlight %}
+```
 
 ### Configuration d'un hôtel virtuel
 
@@ -97,13 +97,13 @@ Pour créer un nouvel hôte virtuel, il faut créer un nouveau fichier dans le r
 
 Par exemple, pour un site ayant pour alias MON_SITE:
 
-{% highlight sh %}
+```sh
 nano /etc/apache2/sites-available/MON_SITE
-{% endhighlight %}
+```
 
 Dans ce fichier, copier le contenu suivant en remplaçant les valeurs en majuscules :
 
-{% highlight text %}
+```text
 <VirtualHost *:80>
   DocumentRoot /var/www/MON_SITE
   ServerAdmin EMAIL_ADMIN
@@ -116,14 +116,14 @@ Dans ce fichier, copier le contenu suivant en remplaçant les valeurs en majuscu
   ErrorLog /var/log/apache2/MON_SITE-error_log
   TransferLog /var/log/apache2/MON_SITE-access_log
 </VirtualHost>
-{% endhighlight %}
+```
 
 Il faut ensuite ajouter ce nouvel hôte et redémarrer Apache :
 
-{% highlight sh %}
+```sh
 a2ensite MON_SITE
 /etc/init.d/apache2 restart
-{% endhighlight %}
+```
 
 Tout est prêt, place à la migration WordPress.
 
@@ -167,13 +167,13 @@ Sur mon serveur dédié, je me suis rendu compte que la réécriture d'URL n'ét
 
 Cette étape peut être passée dans le cas des hébergements mutualisés : si le module de réécriture n'est pas activé, demandez à votre hébergeur. Pour les autres, voici comment activer le module de réécriture :
 
-{% highlight sh %}
+```sh
 a2enmod rewrite
-{% endhighlight %}
+```
 
 Déplacez le fichier .htaccess de votre ancien blog à la racine du nouveau répertoire WordPress. Chez moi, ce fichier ressemble à ça :
 
-{% highlight text %}
+```text
 # BEGIN WordPress
 
 RewriteEngine On
@@ -184,13 +184,13 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 
 # END WordPress
-{% endhighlight %}
+```
 
 Un petit redémarrage d'Apache et c'est bon :
 
-{% highlight sh %}
+```sh
 /etc/init.d/apache2 restart
-{% endhighlight %}
+```
 
 ### Mise à jour des DNS
 

@@ -18,7 +18,7 @@ Dans cet article, je vous propose de faire la même chose sous Windows.
 
 Nous allons utiliser cette commande dans un fichier batch que je nommerai *sync\_data\_nas.bat* dans cet article :
 
-{% highlight bat %}
+```sh
 rem Ouverture d'une connexion sur le disque
 net use \\mybooklive\jeremy /user:jeremy MOT_DE_PASSE
 
@@ -28,7 +28,7 @@ robocopy D:\ \\mybooklive\jeremy\ /MIR /Z /XD "Desktop" "Programmes" "Downloads"
 
 rem Fermeture de la connexion
 net use \\mybooklive\jeremy /delete
-{% endhighlight %}
+```
 
 On commence par ouvrir une connexion vers le disque avec *net use* : cette commande reçoit le chemin vers le répertoire destination sur le My Book Live (*\\\\mybooklive\\jeremy* dans mon cas) ainsi que mes identifiants (nom d'utilisateur et mot de passe utilisés pour se connecter au disque réseau, dans le cas d'un répertoire protégé).
 

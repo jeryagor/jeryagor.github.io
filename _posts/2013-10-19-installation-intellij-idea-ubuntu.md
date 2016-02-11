@@ -19,24 +19,24 @@ Il est recommandé d'installer le JDK officiel à la place de OpenJDK, libre à 
 
 Pour installer le JDK officiel, ajoutons le dépôt webupd8team et lançons l'installation de Java 7 (il vous suffira d'accepter les termes du contrat de licence) :
 
-{% highlight sh %}
+```sh
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
-{% endhighlight %}
+```
 
 Pour activer cette installation, exécutez la commande suivante :
 
-{% highlight sh %}
+```sh
 sudo update-java-alternatives -s java-7-oracle
-{% endhighlight %}
+```
 
 Vous pouvez vérifier que tout s'est passé correctement grâce aux commandes suivantes :
 
-{% highlight sh %}
+```sh
 java -version
 javac -version
-{% endhighlight %}
+```
 
 ## Installation de IntelliJ IDEA
 
@@ -44,10 +44,10 @@ IntelliJ IDEA se télécharge directement sur le [site officiel de JetBrains](ht
 
 Dézippez l'archive téléchargée où vous le souhaitez puis rendez-vous dans ce répertoire pour lancer l'IDE :
 
-{% highlight sh %}
+```sh
 cd INSTALLATION_DIR/bin
 ./idea.sh
-{% endhighlight %}
+```
 
 ## (Faculatif) Ajout d'un raccourci dans la barre de lancement de Ubuntu
 
@@ -55,19 +55,19 @@ Pour plus de facilité, il est possible de créer un raccourci dans la barre de 
 
 Pour cela, créez un nouveau fichier intellij_idea.desktop dans /user/share/applications :
 
-{% highlight sh %}
+```sh
 gksudo gedit /usr/share/applications/intellij_idea.desktop
-{% endhighlight %}
+```
 
 Copiez-y le contenu suivant en modifiant le répertoire d'installation de IntelliJ IDEA de façon adéquate :
 
-{% highlight text %}
+```text
 [Desktop Entry]
 Type=Application
 Terminal=false
 Name=IntelliJ IDEA
 Icon=INSTALLATION_DIR/bin/idea.png
 Exec=INSTALLATION_DIR/bin/idea.sh
-{% endhighlight %}
+```
 
 Déplacez ensuite manuellement ce fichier intellij_idea.desktop de /usr/share/applications dans la barre de lancement de Ubuntu.
