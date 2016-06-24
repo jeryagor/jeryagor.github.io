@@ -206,6 +206,6 @@ Test project /home/jeremy/dev/blog-code-samples/01-boost-test-cmake/build
 100% tests passed, 0 tests failed out of 2
 ```
 
-Voici qui conclut cette introduction à Boost Test et CMake : le code final est disponible dans mon dépôt [GitHub](https://github.com/jeremy/blog-code-samples/tree/master/01-boost-test-cmake).
+Voici qui conclut cette introduction à Boost Test et CMake : le code final est disponible dans mon dépôt [GitHub](https://github.com/uraza/blog-code-samples/tree/master/01-boost-test-cmake).
 
 J'espère que cela vous aura aidé à surmonter les quelques difficultés qui peuvent apparaître dans la mise en place conjointe de ces deux outils.
