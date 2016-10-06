@@ -7,7 +7,7 @@ category: chrome
 
 Après avoir entendu de nombreux retours positifs sur les chromebooks, j'ai moi aussi décidé d'en acheter un pour me forger ma propre opinion.
 
-J'ai opté pour un [Asus C300](http://www.asus.com/fr/Notebooks_Ultrabooks/ASUS_Chromebook_C300/), le modèle avec 4 Go de RAM et un SSD de 32 Go.
+J'ai opté pour un [Asus C300](http://amzn.to/2dTJaTD), le modèle avec 4 Go de RAM et un SSD de 32 Go.
 
 Voici mon retour d'expérience après plus d'un mois d'utilisation quotidienne.
 
@@ -69,6 +69,8 @@ Connectique standard pour un chromebook, on y retrouve une prise jack, deux port
 
 J'ignore pourquoi mais il faut beaucoup forcer sur l'adaptateur secteur pour le brancher sur les prises électriques de mon domicile...
 
+![Asus C300 vue arrière](/img/uploads/asus_c300_back.png)
+
 ## Dans la vie de tous les jours
 
 Avec ses 1.4 kg, ce chromebook est très agréable à transporter : on sent vraiment la différence par rapport aux classiques 15 pouces qui pèsent généralement un kilogramme de plus.
@@ -91,6 +93,6 @@ Le chromebook Asus C300 est un ordinateur ultra-portable tournant sur Chrome OS.
 
 Il présente quelques faiblesses au niveau du processeur et les tests menés sur la connectivité wifi s'avèrent décevants. Toutefois, la durée de vie exceptionnelle de sa batterie, sa taille et son design fanless sont d'excellents atouts en mobilité.
 
-Disponible à un peu plus de 300€ en Europe, le rapport qualité-prix reste bon pour des utilisateurs pas trop pointilleux. Pour les utilisateurs plus exigeants, il vaudra mieux attendre la prochaine génération de processeurs qui, je l'espère, proposera de meilleures performances sans sacrifier la durée de la batterie.
+[Disponible à un peu plus de 300€ en Europe](http://amzn.to/2dTJaTD), le rapport qualité-prix reste bon pour des utilisateurs pas trop pointilleux. Pour les utilisateurs plus exigeants, il vaudra mieux attendre la prochaine génération de processeurs qui, je l'espère, proposera de meilleures performances sans sacrifier la durée de la batterie.
 
-![Asus C300 vue arrière](/img/uploads/asus_c300_back.png)
+{% include asus_chromebook_c300.html %}
