@@ -47,7 +47,7 @@ J'ai récemment écrit un article concernant les [IDE en ligne]({% post_url 2014
 
 Les chromebooks étant des machines tournées vers le cloud, il s'agit d'une solution qui s'inscrit bien dans la philosophie de l'OS.
 
-Toutefois, ces outils ne sont pas aussi évolués que leurs équivalents en local sur nos machines de développement. Tout dépend donc de vos besoin, je vous invite à tester pour vous faire une idée.
+Toutefois, ces outils ne sont pas aussi évolués que leurs équivalents en local sur nos machines de développement. Tout dépend donc de vos besoins, je vous invite à tester pour vous faire une idée.
 
 ## Solution 4 : travailler en local sur Chrome OS
 
